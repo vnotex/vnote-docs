@@ -1,2 +1,2 @@
 # vnote-docs
-Documentations for VNote
+Documentations for VNote.
