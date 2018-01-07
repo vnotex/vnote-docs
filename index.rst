@@ -29,9 +29,9 @@ The main documentation for the site is organized into a couple of sections:
     :maxdepth: 2
     :caption: User Documentation
 
-    why_vnote
-    getting_started
-    build
+    user_docs/why_vnote
+    user_docs/getting_started
+    user_docs/build
 
 .. _advanced-docs:
 
