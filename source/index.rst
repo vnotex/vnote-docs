@@ -25,8 +25,9 @@ The main documentation for the site is organized into a couple of sections:
 .. _user-docs:
 
 .. toctree::
-   :maxdepth: 2
-   :caption: User Documentation
+    :glob:
+    :maxdepth: 2
+    :caption: User Documentation
 
     why_vnote
     getting_started
@@ -35,17 +36,20 @@ The main documentation for the site is organized into a couple of sections:
 .. _advanced-docs:
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Advanced Documentation
+    :glob:
+    :maxdepth: 2
+    :caption: Advanced Documentation
 
 .. _dev-docs:
 
 .. toctree::
+    :glob:
     :maxdepth: 2
     :caption: Developer Documentation
 
 .. _about-docs:
 
 .. toctree::
+    :glob:
     :maxdepth: 2
     :caption: About VNote
