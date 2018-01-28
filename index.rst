@@ -33,6 +33,7 @@ The main documentation for the site is organized into a couple of sections:
     user_docs/getting_started
     user_docs/build
     user_docs/notes_management
+    user_docs/faqs
 
 .. _advanced-docs:
 
