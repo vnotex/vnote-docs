@@ -7,14 +7,14 @@ Notebook is an independent, self-explanatory container in VNote. A notebook is a
 ### Create A Notebook
 You could create a new notebook by specifying following fields:
 
-- **Notebook Name**  
-Name of your notebook in VNote. It is only used to identify your notebook in VNote. It will not be written into the configuration of the notebook.
-- **Notebook Root Folder**  
-Choose an **EMPTY** directory in your system to hold all the contents of this notebook. This choosen directory is assumed to be in the control of VNote.
-- **Image Folder**  
-This is the name of the folder used to store local images of notes. VNote uses a given folder which has the same parent folder of the notes to store images of those notes.
-- **Attachment Folder**  
-This is the name of the folder used to store attachment files of notes.
+- **Notebook Name**
+    - Name of your notebook in VNote. It is only used to identify your notebook in VNote. It will not be written into the configuration of the notebook.
+- **Notebook Root Folder**
+    - Choose an **EMPTY** directory in your system to hold all the contents of this notebook. This choosen directory is assumed to be in the control of VNote.
+- **Image Folder**
+    - This is the name of the folder used to store local images of notes. VNote uses a given folder which has the same parent folder of the notes to store images of those notes.
+- **Attachment Folder**
+    - This is the name of the folder used to store attachment files of notes.
 
 ### Migrate and Import A Notebook
 A notebook is an independent directory in the file system, so you could just copy or synchronize the *Notebook Root Folder* to migrate a notebook.
