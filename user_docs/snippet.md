@@ -18,20 +18,18 @@ VNote uses a folder in the configuration folder to store all the snippets and us
 ## Define A Snippet
 A snippet contains:
 
-![](_v_images/_1517130977_1528738878.png)
-
-- Snippet Name  
-Identifies a snippet. It is also the name of the corresponding file in the snippet folder.
-- Snippet Type  
-Plain text or HTML. Currently only plain text is supported.
+- Snippet Name
+    - Identifies a snippet. It is also the name of the corresponding file in the snippet folder.
+- Snippet Type
+    - Plain text or HTML. Currently only plain text is supported.
 - Shortcut
-You could designate one of the 26 characters (`a` to `z`) to insert snippet quickly.
-- Cursor Mark  
-VNote uses Cursor Mark to mark the position of the cursor after applying a snippet. Should appears only once in the `Content`.
-- Selection Mark  
-VNote uses Selection Mark to mark the position to insert the selected text before applying a snippet. Selection mark could appear multiple times in the `Content`. After applying a snippet, all the selection marks will be replaced with the selected text.
-- Content  
-The content of the snippet which will be inserted at the position of current cursor while applying a snippet.
+    - You could designate one of the 26 characters (`a` to `z`) to insert snippet quickly.
+- Cursor Mark
+    - VNote uses Cursor Mark to mark the position of the cursor after applying a snippet. Should appears only once in the `Content`.
+- Selection Mark
+    - VNote uses Selection Mark to mark the position to insert the selected text before applying a snippet. Selection mark could appear multiple times in the `Content`. After applying a snippet, all the selection marks will be replaced with the selected text.
+- Content
+    - The content of the snippet which will be inserted at the position of current cursor while applying a snippet.
 
 ## Apply A Snippet
 ### Snippet Panel
