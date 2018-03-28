@@ -37,6 +37,7 @@ The main documentation for the site is organized into a couple of sections:
     user_docs/magic_word
     user_docs/template
     user_docs/themes_and_styles
+    user_docs/export
     user_docs/faqs
 
 .. _advanced-docs:

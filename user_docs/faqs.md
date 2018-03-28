@@ -19,7 +19,7 @@ However, please notice that VNote will store the notebook's path in the configur
 1. Enable `Mermaid Diagram` and `Flowchart.js` in the `Markdown` menu;
 2. Re-open opened tabs to let it take effect;
 3. For Mermaid, write a fenced code block specified with language `mermaid`;
-4. For flowchart.js, write a fenced code block specified with language `flowchart` or `flow`;
+4. For Flowchart.js, write a fenced code block specified with language `flowchart` or `flow`;
 
 Mermaid example:
 
