@@ -13,6 +13,8 @@ There are four sources to select which notes to export.
     - Support export subfolders recursively;
 - **Current Notebook**
     - Export all the notes of current notebook;
+- **Cart**  
+Cart is a tool to collect random notes for further processing.
 
 ## Options
 We could specify **Markdown renderer**, **Markdown rendering background**, **Markdown rendering style**, and **Markdown rendering code block style** for the export. For example, we could specify a *transparent* background when we export PDFs.
