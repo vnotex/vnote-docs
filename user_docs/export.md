@@ -85,11 +85,12 @@ Advanced settings:
         - `%1`: the output file;
         - `%2`: the rendering CSS style file to be used;
         - `%3`: the input file directories;
+        - `%4`: the rendering code block CSS style file to be used;
 
 An example to use [pandoc](http://pandoc.org) to export notes:
 
 ```sh
-pandoc --resource-path=.:"%3" --css="%2" -s -o "%1" "%0"
+pandoc --resource-path=.:"%3" --css="%2" --css="%4" -s -o "%1" "%0"
 ```
 
 Then if the output suffix is `pdf`, it will generate the PDF file; if it is `docx`, it will generate the DOCX file.
