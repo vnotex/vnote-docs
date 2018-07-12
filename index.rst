@@ -15,7 +15,7 @@ VNote is open source, and available on `Github`_.
 .. _VNote: https://tamlok.github.io/vnote/
 .. _Github: https://github.com/tamlok/vnote/
 
-You could obtain a Simplified Chinese version translated by users `here`_.
+You could obtain a Simplified Chinese (简体中文) version translated by users `here`_.
 
 .. _here: http://vnote.readthedocs.io/zh_CN/latest/
 
