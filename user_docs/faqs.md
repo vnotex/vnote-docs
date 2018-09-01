@@ -8,11 +8,16 @@ VNote supports a configuration `[web]/mathjax_javascript` which specifies the lo
 mathjax_javascript=https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML
 ```
 
-You could download the MathJax ([howto](http://docs.mathjax.org/en/latest/installation.html)) and specify a local copy of the MathJax to use, like `mathjax_javascript="/home/tamlok/Downloads/MathJax-2.7.2/MathJax.js?config=TeX-MML-AM_CHTML"`.
+You could download the MathJax ([howto](http://docs.mathjax.org/en/latest/installation.html)) and specify a local copy of the MathJax to use, like `mathjax_javascript="file:///home/tamlok/Downloads/MathJax-2.7.2/MathJax.js?config=TeX-MML-AM_CHTML"`.
 
 You could also specify customized script in GUI settings dialog:
 
 ![Customize MathJax Script](_v_images/_customizem_1526304904_1519292127.png)
+
+Notes:
+
+- Need to prepend `file://` to the local path;
+- Using local path may get the fonts wrong. I think a better way is to run a light HTTP server locally.
 
 ## How to make VNote more "portable"?
 VNote will read and store configuration files in the common directory of the operating system to store application data. If you prefer to put these configuration files along with the VNote executable, you coulud copy or create the `vnote.ini` file in the directory containing VNote executable. VNote will first try to read `vnote.ini` from where the executable exists.
