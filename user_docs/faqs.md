@@ -60,3 +60,15 @@ Flowchart.js example:
 ![](_v_images/_1526306088_1492754452.png)
 
 When `Single click to open a note in current tab` is enabled, single-click in the note list to open the note in current tab, while double-click to open it in a new tab.
+
+## Interface is freezed
+## Cursor is not visible in edit mode
+## Crash when opening a note
+## Menu does not work in fullscreen mode
+All the above 4 issues may be caused by the driver of the display card. Steps to solve it:
+
+1. On Windows, try to update the display card driver;
+2. Try to schedule VNote to run with integrated display card;
+3. If not works, try to declare a system environment variable named `QT_OPENGL` and set its value to `desktop`, or `angle`, or `software`.
+
+Restart of VNote is needed after the action.
