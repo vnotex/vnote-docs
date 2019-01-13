@@ -1,0 +1,138 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Le Tan
+# This file is distributed under the same license as the VNote package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: VNote 1.11.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-13 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../user_docs/full_text_search.md:1
+msgid "Full-Text Search"
+msgstr ""
+
+#: ../../user_docs/full_text_search.md:2
+msgid "VNote provides powerful built-in full-text search to search your notes."
+msgstr ""
+
+#: ../../user_docs/full_text_search.md:4
+msgid "Ctrl+E C or Ctrl+Alt F to activate the Search dock widget. You could also activate it through the Edit or View menu."
+msgstr ""
+
+#: ../../user_docs/full_text_search.md:8
+msgid "Keywords"
+msgstr ""
+
+#: ../../user_docs/full_text_search.md:9
+msgid "Specify the keywords to search for;"
+msgstr ""
+
+#: ../../user_docs/full_text_search.md:10
+msgid "Support && and || for AND and OR logics, such as markdown && vnote;"
+msgstr ""
+
+#: ../../user_docs/full_text_search.md:11
+msgid "Space-separated keywords mean AND, such as markdown vnote;"
+msgstr ""
+
+#: ../../user_docs/full_text_search.md:13
+msgid "Magic Switch"
+msgstr ""
+
+#: ../../user_docs/full_text_search.md:14
+msgid "VNote supports Magic Switch in the keywords to turn on/off some options of the search:"
+msgstr ""
+
+#: ../../user_docs/full_text_search.md:16
+msgid "\\f or \\F: disable or enable Fuzzy Search;"
+msgstr ""
+
+#: ../../user_docs/full_text_search.md:17
+msgid "\\c or \\C: case insensitive or sensitive;"
+msgstr ""
+
+#: ../../user_docs/full_text_search.md:18
+msgid "\\r or \\R: disable or enable Regular Expression;"
+msgstr ""
+
+#: ../../user_docs/full_text_search.md:19
+msgid "\\w or \\W: disable or enable Whole Word Only;"
+msgstr ""
+
+#: ../../user_docs/full_text_search.md:21
+msgid "Example: vnote \\C \\W to search vnote with case-insensitive and whole-word-only."
+msgstr ""
+
+#: ../../user_docs/full_text_search.md:23
+msgid "Scope"
+msgstr ""
+
+#: ../../user_docs/full_text_search.md:24
+msgid "There are four scopes to constrain the search:"
+msgstr ""
+
+#: ../../user_docs/full_text_search.md:26
+msgid "Opened Notes;"
+msgstr ""
+
+#: ../../user_docs/full_text_search.md:27
+msgid "Current Folder;"
+msgstr ""
+
+#: ../../user_docs/full_text_search.md:28
+msgid "Current Notebook;"
+msgstr ""
+
+#: ../../user_docs/full_text_search.md:29
+msgid "All Notebooks;"
+msgstr ""
+
+#: ../../user_docs/full_text_search.md:31
+msgid "Object"
+msgstr ""
+
+#: ../../user_docs/full_text_search.md:32
+msgid "Specify whether the search should be executed against the Content or the Name."
+msgstr ""
+
+#: ../../user_docs/full_text_search.md:34
+msgid "Target"
+msgstr ""
+
+#: ../../user_docs/full_text_search.md:35
+msgid "We could search among:"
+msgstr ""
+
+#: ../../user_docs/full_text_search.md:37
+msgid "Note;"
+msgstr ""
+
+#: ../../user_docs/full_text_search.md:38
+msgid "Folder;"
+msgstr ""
+
+#: ../../user_docs/full_text_search.md:39
+msgid "Notebook;"
+msgstr ""
+
+#: ../../user_docs/full_text_search.md:40
+msgid "Note/Folder/Notebook;"
+msgstr ""
+
+#: ../../user_docs/full_text_search.md:42
+msgid "File Pattern"
+msgstr ""
+
+#: ../../user_docs/full_text_search.md:43
+msgid "We could specify the file pattern to filter the files we are interested in, such as *.md to search only Markdown files."
+msgstr ""
+

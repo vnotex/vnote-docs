@@ -81,6 +81,14 @@ pygments_style = 'sphinx'
 # If true, `todo` and `todoList` produce output, else they produce nothing.
 todo_include_todos = False
 
+# -- Options for i18n
+gettext_compact = False
+
+gettext_auto_build = True
+
+#gettext_additional_targets = []
+
+locale_dirs = ['locale/']
 
 # -- Options for HTML output ----------------------------------------------
 

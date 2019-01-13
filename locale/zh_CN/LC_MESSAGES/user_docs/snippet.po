@@ -1,0 +1,154 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Le Tan
+# This file is distributed under the same license as the VNote package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: VNote 1.11.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-13 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../user_docs/snippet.md:1
+msgid "Snippet"
+msgstr ""
+
+#: ../../user_docs/snippet.md:2
+msgid "Snippet is designed to facilitate the repeated input of some words."
+msgstr ""
+
+#: ../../user_docs/snippet.md:4
+msgid "Snippet Management"
+msgstr ""
+
+#: ../../user_docs/snippet.md:5
+msgid "You could manage snippets via the Tools dock widget."
+msgstr ""
+
+#: ../../user_docs/snippet.md:9
+msgid "In this panel, we could:"
+msgstr ""
+
+#: ../../user_docs/snippet.md:11
+msgid "Create a snippet;"
+msgstr ""
+
+#: ../../user_docs/snippet.md:12
+msgid "Open snippet folder;VNote uses a folder in the configuration folder to store all the snippets and use configuration file snippet.json for management. Each snippet corresponds to one file."
+msgstr ""
+
+#: ../../user_docs/snippet.md:14
+msgid "View and edit the information about a snippet;"
+msgstr ""
+
+#: ../../user_docs/snippet.md:15
+msgid "Sort and delete snippets;"
+msgstr ""
+
+#: ../../user_docs/snippet.md:16
+msgid "Apply (insert) a snippet into the editor;"
+msgstr ""
+
+#: ../../user_docs/snippet.md:18
+msgid "Define A Snippet"
+msgstr ""
+
+#: ../../user_docs/snippet.md:19
+msgid "A snippet contains:"
+msgstr ""
+
+#: ../../user_docs/snippet.md:21
+msgid "Snippet Name"
+msgstr ""
+
+#: ../../user_docs/snippet.md:22
+msgid "Identifies a snippet. It is also the name of the corresponding file in the snippet folder."
+msgstr ""
+
+#: ../../user_docs/snippet.md:23
+msgid "Snippet Type"
+msgstr ""
+
+#: ../../user_docs/snippet.md:24
+msgid "Plain text or HTML. Currently only plain text is supported."
+msgstr ""
+
+#: ../../user_docs/snippet.md:25
+msgid "Shortcut"
+msgstr ""
+
+#: ../../user_docs/snippet.md:26
+msgid "You could designate one of the 26 characters (a to z) to insert snippet quickly."
+msgstr ""
+
+#: ../../user_docs/snippet.md:27
+msgid "Cursor Mark"
+msgstr ""
+
+#: ../../user_docs/snippet.md:28
+msgid "VNote uses Cursor Mark to mark the position of the cursor after applying a snippet. Should appears only once in the Content."
+msgstr ""
+
+#: ../../user_docs/snippet.md:29
+msgid "Selection Mark"
+msgstr ""
+
+#: ../../user_docs/snippet.md:30
+msgid "VNote uses Selection Mark to mark the position to insert the selected text before applying a snippet. Selection mark could appear multiple times in the Content. After applying a snippet, all the selection marks will be replaced with the selected text."
+msgstr ""
+
+#: ../../user_docs/snippet.md:31
+msgid "Content"
+msgstr ""
+
+#: ../../user_docs/snippet.md:32
+msgid "The content of the snippet which will be inserted at the position of current cursor while applying a snippet."
+msgstr ""
+
+#: ../../user_docs/snippet.md:34
+msgid "Apply A Snippet"
+msgstr ""
+
+#: ../../user_docs/snippet.md:35
+msgid "Snippet Panel"
+msgstr ""
+
+#: ../../user_docs/snippet.md:36
+msgid "Place the cursor at the proper position and double click a snippet in the snippet panel to apply a snippet."
+msgstr ""
+
+#: ../../user_docs/snippet.md:38
+msgid "Shortcuts"
+msgstr ""
+
+#: ../../user_docs/snippet.md:39
+msgid "You could use Captain Mode to apply a snippet quickly. In edit mode, press Ctrl+E S to activate snippet selection dialog, which shows all the snippets with shortcut defined. Press the corresponding shortcut key to apply a snippet."
+msgstr ""
+
+#: ../../user_docs/snippet.md:41
+msgid "Examples"
+msgstr ""
+
+#: ../../user_docs/snippet.md:42
+msgid "Insert Code Block with CPP"
+msgstr ""
+
+#: ../../user_docs/snippet.md:47
+msgid "Comment Out Selected Text"
+msgstr ""
+
+#: ../../user_docs/snippet.md:52
+msgid "Tag for Color"
+msgstr ""
+
+#: ../../user_docs/snippet.md:57
+msgid "Or:"
+msgstr ""
+

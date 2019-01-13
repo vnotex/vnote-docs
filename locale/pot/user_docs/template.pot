@@ -1,0 +1,46 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Le Tan
+# This file is distributed under the same license as the VNote package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: VNote 1.11.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-13 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../user_docs/template.md:1
+msgid "Template"
+msgstr ""
+
+#: ../../user_docs/template.md:2
+msgid "VNote supports creating a note from a template."
+msgstr ""
+
+#: ../../user_docs/template.md:4
+msgid "When creating a note, you could choose one template in the dialog."
+msgstr ""
+
+#: ../../user_docs/template.md:8
+msgid "VNote stores template files in the templates subfolder of the configuration folders. One file corresponds to one template. You could access the template folder by clicking the \"folder\" icon  besides the combo box."
+msgstr ""
+
+#: ../../user_docs/template.md:10
+msgid "You could add or delete template files in the template folder via system's file browser."
+msgstr ""
+
+#: ../../user_docs/template.md:12
+msgid "VNote supports Magic Word in template. For example, you could write a template like this:"
+msgstr ""
+
+#: ../../user_docs/template.md:19
+msgid "%no% is a magic word which will be evaluated to the note name (without suffix). Hence if the note name is week report.md, then the new note will look like this:"
+msgstr ""
+
