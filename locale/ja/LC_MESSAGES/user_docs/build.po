@@ -3,46 +3,44 @@
 # This file is distributed under the same license as the VNote package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
-msgstr ""
-"Project-Id-Version: VNote 1.11.1\n"
+msgstr "Project-Id-Version: VNote 1.11.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-13 11:49+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-01-12 00:00+0900\n"
+"Last-Translator: Hiroshi Miura <miurahr@linux.com>\n"
+"Language-Team: Japanese <ja@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../user_docs/build.md:1
 msgid "Build VNote"
-msgstr ""
+msgstr "VNoteのビルド"
 
 #: ../../user_docs/build.md:2
 msgid "You need Qt 5.9 to build VNote from source."
-msgstr ""
+msgstr "ソースからVNoteを作成するには、Qt5.9が必要です。"
 
 #: ../../user_docs/build.md:4
 msgid "Get the Source Code of VNote"
-msgstr ""
+msgstr "VNoteのソースコードを取得する"
 
 #: ../../user_docs/build.md:5
 msgid "VNote's source code is available on Github. You could download the ZIP archive of the code. Please be aware of that VNote depends on some submodules, so you should also download the source codes of these modules."
-msgstr ""
+msgstr "VNoteのソースコードは、Githubで入手できます。コードのZIPアーカイブをダウンロードすることができます。VNoteはいくつかのサブモジュールに依存しているので、これらのモジュールのソースコードもダウンロードしてください。"
 
 #: ../../user_docs/build.md:7
 msgid "The recommended way is using git like this:"
-msgstr ""
+msgstr "推奨される方法は、次のようにgitを使用することです："
 
 #: ../../user_docs/build.md:15
 msgid "Get Qt 5.9"
-msgstr ""
+msgstr "Qt 5.9の入手"
 
 #: ../../user_docs/build.md:16
 msgid "You could get the standalone Qt SDK from Qt Downloads. For users in China, you could speed up the download via the TUNA Mirrors."
-msgstr ""
+msgstr "スタンドアロンQt SDKは、Qt downloadsから入手できます。中国では、TUNA Mirrorsを通じてダウンロードを高速化することができます。"
 
 #: ../../user_docs/build.md:18
 msgid "Windows"
@@ -50,11 +48,11 @@ msgstr ""
 
 #: ../../user_docs/build.md:19
 msgid "On Windows, you need Visual Studio 2015 or above to compile VNote."
-msgstr ""
+msgstr "Windowsでは、VNoteをコンパイルするにはVisual Studio2015以上が必要です。"
 
 #: ../../user_docs/build.md:21
 msgid "Open Qt Creator and open vnote.git\\VNote.pro as project. Now you are ready to tune and compile VNote!"
-msgstr ""
+msgstr "Qt Creatorを開き、vnote.git\\VNote.proをプロジェクトとして開きます。これで、VNote!を調整してコンパイルできるようになりました。"
 
 #: ../../user_docs/build.md:23
 msgid "Linux"
@@ -62,11 +60,11 @@ msgstr ""
 
 #: ../../user_docs/build.md:24
 msgid "In Ubuntu, you could get Qt 5.9 from PPA like this:"
-msgstr ""
+msgstr "Ubuntuでは、次のようにPPAからQt5.9を取得することができます。"
 
 #: ../../user_docs/build.md:34
 msgid "Then compile and install VNote like this:"
-msgstr ""
+msgstr "次のようにVNoteをコンパイルしてインストールします。"
 
 #: ../../user_docs/build.md:45
 msgid "Fcitx"
@@ -74,19 +72,19 @@ msgstr ""
 
 #: ../../user_docs/build.md:46
 msgid "If you use Fcitx as the input method, you need to copy the missing library libfcitxplatforminputcontextplugin.so to Qt's plugin directory."
-msgstr ""
+msgstr "入力メソッドとしてFcitxを使用する場合は、欠落したライブラリlibfcitxplatforminputcontextplugin.soをQtのプラグイン・ディレクトリにコピーする必要があります。"
 
 #: ../../user_docs/build.md:48
 msgid "To find the place of libfcitxplatforminputcontextplugin.so, you could execute:"
-msgstr ""
+msgstr " libfcitxplatforminputcontextplugin.soの場所をさがすため、次のコマンドを実行してみてください："
 
 #: ../../user_docs/build.md:54
 msgid "If there is no such lib, you may need to install and configure Fcitx for Qt5 correctly before continue."
-msgstr ""
+msgstr "ライブラリが見付からないときは、つぎに進む前にFcitx for Qt5を正しくインストールし設定する必要があります。"
 
 #: ../../user_docs/build.md:56
 msgid "Then you need to copy the lib to Qt's plugin directory:"
-msgstr ""
+msgstr "次に、libをQtのプラグイン・ディレクトリーにコピーする必要があります。"
 
 #: ../../user_docs/build.md:62
 msgid "OpenSSL"
@@ -94,19 +92,19 @@ msgstr ""
 
 #: ../../user_docs/build.md:63
 msgid "VNote needs openSSL 1.0 for networking. To verify if it has been setup correctly, you could check for updates in the Help menu of VNote. If VNote fails to check for updates, then you need to copy libraries of openSSL to Qt's library directory."
-msgstr ""
+msgstr "VNoteはopenSSL1.0をネットワーク接続のために必要とします。正しく設定されているかどうかを確認するには、VNOTEのヘルプメニューで更新を確認します。VNoteが更新のチェックに失敗した場合は、openSSLのライブラリをQtのライブラリディレクトリにコピーする必要があります。"
 
 #: ../../user_docs/build.md:65
 msgid "After the installation of openSSL, you could find two lib files:"
-msgstr ""
+msgstr "openSSLをインストールすると、次の2つのライブラリファイルを見つけることができます。"
 
 #: ../../user_docs/build.md:72
 msgid "Copy these two files to Qt's library directory:"
-msgstr ""
+msgstr "この二つのファイルを、Qtライブラリディレクトリにコピーしてください。"
 
 #: ../../user_docs/build.md:78
 msgid "In Qt's library directory, create symlinks for these two files:"
-msgstr ""
+msgstr "Qtのライブラリディレクトリで、次の2つのファイルに対してシンボリックリンクを作成します。"
 
 #: ../../user_docs/build.md:85
 msgid "MacOS"
@@ -114,25 +112,25 @@ msgstr ""
 
 #: ../../user_docs/build.md:86
 msgid "If you prefer command line on macOS, you could follow these steps."
-msgstr ""
+msgstr "mac OSでコマンドラインを使用する場合は、次の手順を実行します。"
 
 #: ../../user_docs/build.md:88
 msgid "Install Xcode and Homebrew;"
-msgstr ""
+msgstr "XcodeとHomebrewをインストールします；"
 
 #: ../../user_docs/build.md:89
 msgid "Install Qt 5.9.1 via Homebrew:"
-msgstr ""
+msgstr "Homebrewを使用してQt5.9.1をインストールします："
 
 #: ../../user_docs/build.md:93
 msgid "In the project directory, create build_macos.sh like this:"
-msgstr ""
+msgstr "プロジェクトディレクトリで、次のようにbuild_macos.shを作成します："
 
 #: ../../user_docs/build.md:106
 msgid "Make build_macos.sh executable and run it:"
-msgstr ""
+msgstr "build_macos.shを実行可能にして実行します："
 
 #: ../../user_docs/build.md:111
 msgid "Now you got the bundle path/to/project/build/src/VNote.app."
-msgstr ""
+msgstr "これでバンドル path/to/project/build/src/VNote.appができました。"
 

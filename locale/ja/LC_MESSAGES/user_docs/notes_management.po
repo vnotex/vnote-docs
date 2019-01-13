@@ -3,108 +3,106 @@
 # This file is distributed under the same license as the VNote package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
-msgstr ""
-"Project-Id-Version: VNote 1.11.1\n"
+msgstr "Project-Id-Version: VNote 1.11.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-13 11:49+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-01-12 00:00+0900\n"
+"Last-Translator: Hiroshi Miura <miurahr@linux.com>\n"
+"Language-Team: Japanese <ja@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../user_docs/notes_management.md:1
 msgid "Notes Management"
-msgstr ""
+msgstr "ノート管理"
 
 #: ../../user_docs/notes_management.md:2
 msgid "VNote adopts notebooks-folders-notes hierarchy for notes management. A notebook corresponds to a directory in the file system, which is called Notebook Root Folder. Folders of a notebook correspond to directories within the Notebook Root Folder. Notes inside a folder corresponds to files within that directory."
-msgstr ""
+msgstr "VNoteは、ノートブック-フォルダ-ノートという階層でノート管理しています。ノートブックは、ファイルシステム内のディレクトリに紐づいており、そのディレクトリのことをノートブックRootフォルダと呼んでいます。ノートブックのフォルダは、ノートブックRootフォルダ内のディテクトリに対応しています。フォルダ内のノートは、対応するディレクトリ内のファイルに対応しています。"
 
 #: ../../user_docs/notes_management.md:4
 msgid "Notebook"
-msgstr ""
+msgstr "ノートブック"
 
 #: ../../user_docs/notes_management.md:5
 msgid "Notebook is an independent, self-explanatory container in VNote. A notebook is a Notebook Root Folder in the file system. The root folder contains all the notes and configuration files of that notebook."
-msgstr ""
+msgstr "ノートブックは、独立しており、VNoteでの自己説明的な容器になっています。ノートブックは、ファイルシステムにおけるノートブックRootフォルダです。ルートフォルダには、そのノートブックのすべてのノートとノートブックの構成ファイルが格納されています。"
 
 #: ../../user_docs/notes_management.md:7
 msgid "Create A Notebook"
-msgstr ""
+msgstr "ノートブックを作成する"
 
 #: ../../user_docs/notes_management.md:8
 msgid "You could create a new notebook by specifying following fields:"
-msgstr ""
+msgstr "次のフィールドを指定して、新しいノートブックを作成することができます。"
 
 #: ../../user_docs/notes_management.md:10
 msgid "Notebook Name"
-msgstr ""
+msgstr "ノートブック名"
 
 #: ../../user_docs/notes_management.md:11
 msgid "Name of your notebook in VNote. It is only used to identify your notebook in VNote. It will not be written into the configuration of the notebook."
-msgstr ""
+msgstr "VNoteにおけるノートブックの名前ですこれは、ノートブックをVNoteで識別するためにのみ使用されます。ノートブックの構成には書き込まれません。"
 
 #: ../../user_docs/notes_management.md:12
 msgid "Notebook Root Folder"
-msgstr ""
+msgstr "ノートブックのルートフォルダ"
 
 #: ../../user_docs/notes_management.md:13
 msgid "Choose an EMPTY directory in your system to hold all the contents of this notebook. This choosen directory is assumed to be in the control of VNote."
-msgstr ""
+msgstr "システムで空のディレクトリを選択してください。このノートブックのすべての内容を保持します。この選択したディレクトリをVNoteの制御下におくことを想定したことになります。"
 
 #: ../../user_docs/notes_management.md:14
 msgid "Image Folder"
-msgstr ""
+msgstr "画像フォルダ"
 
 #: ../../user_docs/notes_management.md:15
 msgid "This is the name of the folder used to store local images of notes. VNote uses a given folder which has the same parent folder of the notes to store images of those notes."
-msgstr ""
+msgstr "これは、ローカルのノートの画像を保存するフォルダの名前です。VNoteは、ノートと同じ親フォルダ配下の指定されたフォルダを用いて、ノートの画像を保存します。"
 
 #: ../../user_docs/notes_management.md:16
 msgid "Attachment Folder"
-msgstr ""
+msgstr "添付ファイルフォルダ"
 
 #: ../../user_docs/notes_management.md:17
 msgid "This is the name of the folder used to store attachment files of notes."
-msgstr ""
+msgstr "これは、ローカルのノートの添付ファイルを保存するフォルダの名前です。"
 
 #: ../../user_docs/notes_management.md:19
 msgid "Migrate and Import A Notebook"
-msgstr ""
+msgstr "ノートブックの移行とインポート"
 
 #: ../../user_docs/notes_management.md:20
 msgid "A notebook is an independent directory in the file system, so you could just copy or synchronize the Notebook Root Folder to migrate a notebook."
-msgstr ""
+msgstr "ノートブックは、ファイルシステム内の独立したディレクトリです。ノートブックのルートフォルダをコピーまたは同期して、ノートブックを移行することができます。"
 
 #: ../../user_docs/notes_management.md:22
 msgid "You could import an existing notebook into VNote by selecting its Notebook Root Folder when creating a notebook. VNote will try to read the configuration files to restore the notebook."
-msgstr ""
+msgstr "ノートブックの作成時にノートブックルートフォルダを選択して、既存のノートブックをVNoteにインポートすることができます。ノートブックを復元するための構成ファイルを読み取ろうとします。"
 
 #: ../../user_docs/notes_management.md:24
 msgid "Combining these, you could create your notebooks in a directory which is synchronized via third-party service, such as Dropbox and OneDrive, and then in another computer, you could import that directory into VNote as a notebook. With this, you could use VNote to edit and manage your notes, which will be synchronized by other trusted services, both at home and at work."
-msgstr ""
+msgstr "これらを組み合わせることで、DropboxやOneDriveなどのサードパーティーサービスによって同期されたディレクトリにノートブックを作成することができ、その後別のコンピュータで、ノートブックとしてそのディレクトリをVNoteにインポートすることができます。これにより、VNoteを使用してノートを編集および管理することができます。これは、自宅と職場の両方で、他の信頼されたサービスによって同期化されます。"
 
 #: ../../user_docs/notes_management.md:26
 msgid "Folders"
-msgstr ""
+msgstr "フォルダ"
 
 #: ../../user_docs/notes_management.md:27
 msgid "The hierarchy of folders within a notebook is the same as that of the directories within the Notebook Root Folder. You could create as many as possible levels of folders theoritically."
-msgstr ""
+msgstr "ノートブック内のフォルダの階層はノートブックのルートフォルダ内のディレクトリと同じです。理論上は、可能な限り多くのレベルのフォルダを作成することができます。"
 
 #: ../../user_docs/notes_management.md:29
 msgid "Notes"
-msgstr ""
+msgstr "ノート"
 
 #: ../../user_docs/notes_management.md:30
 msgid "You could import external files into VNote as notes by the New Notes From Files action in File menu. VNote will copy selected files into current folder as notes."
-msgstr ""
+msgstr "外部ファイルは、[ファイル]メニューの[ファイルからの新規メモ]アクションからメモとしてVNoteに読み込むことができます。VNoteは、選択されたファイルを現在のフォルダにメモとしてコピーします。"
 
 #: ../../user_docs/notes_management.md:32
 msgid "In theory,  a note in VNote could use any suffix. Notes with suffix .md will be treated as Markdown files."
-msgstr ""
+msgstr "理論的には、VNoteのノートは任意の拡張子を使用することができます。拡張子の.mdは、Markdownファイルとして扱われます。"
 

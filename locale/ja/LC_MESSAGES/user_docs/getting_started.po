@@ -3,92 +3,90 @@
 # This file is distributed under the same license as the VNote package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
-msgstr ""
-"Project-Id-Version: VNote 1.11.1\n"
+msgstr "Project-Id-Version: VNote 1.11.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-13 11:49+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-01-12 00:00+0900\n"
+"Last-Translator: Hiroshi Miura <miurahr@linux.com>\n"
+"Language-Team: Japanese <ja@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../user_docs/getting_started.md:1
 msgid "Getting Started"
-msgstr ""
+msgstr "スタートアップ"
 
 #: ../../user_docs/getting_started.md:2
 msgid "VNote is distributed on Linux, Windows, and macOS. You could always download standalone packages from the Downloads page."
-msgstr ""
+msgstr "VNoteはLinux、Windows、およびmac OS上で配布されます。ダウンロード・ページからスタンドアロン・パッケージをダウンロードすることができます。"
 
 #: ../../user_docs/getting_started.md:4
 msgid "It is recommended to download and use the stable releases of VNote. If you prefer to use some latest features of VNote, you could try the latest continuous build from master branch."
-msgstr ""
+msgstr "VNoteの安定リリースをダウンロードして使用することをお勧めします。VNoteの最新機能を使用する場合は、マスターブランチから最新の連続ビルドを試すことができます。"
 
 #: ../../user_docs/getting_started.md:6
 msgid "Besides the standalone packages, some package managers may already package and distribute VNote, such as AUR, and homebrew cask."
-msgstr ""
+msgstr "スタンドアロンパッケージの他に、いくつかのパッケージマネージャはすでにAURAなどのVNoteをパッケージ化して配布したり、ホームブリューのキャスクを配布したりすることができます。"
 
 #: ../../user_docs/getting_started.md:8
 msgid "Main Interface"
-msgstr ""
+msgstr "メインインターフェイス"
 
 #: ../../user_docs/getting_started.md:9
 msgid "Here is a snapshot of VNote's main interface."
-msgstr ""
+msgstr "ここでは、VNoteのメイン・インターフェースのスナップショットを示します。"
 
 #: ../../user_docs/getting_started.md:13
 msgid "Menubar and Toolbar"
-msgstr ""
+msgstr "メニューバーとツールバー"
 
 #: ../../user_docs/getting_started.md:14
 msgid "VNote provides some settings via Menubar at the top of the window and provides some handy shortcuts via Toolbar right below the menubar. Place mouse over the menu item or button, there is a tooltip or status tip to help illustrating the function of that item or button."
-msgstr ""
+msgstr "VNoteはウィンドウの上部にあるMenubarを通じていくつかの設定を提供し、メニューバーのすぐ下にあるツールバーを使って便利なショートカットを提供します。メニュー項目またはボタンの上にマウスを置くと、その項目またはボタンの機能を説明するためのツールチップやステータスヒントが表示されます。"
 
 #: ../../user_docs/getting_started.md:16
 msgid "Notebooks, Folders, and Notes"
-msgstr ""
+msgstr "ノートブック、フォルダ、ノート"
 
 #: ../../user_docs/getting_started.md:17
 msgid "VNote uses Notebooks, Folders, and Notes hierarchy for note management. The left-side panel is used to navigate through your notebooks, folders, and notes."
-msgstr ""
+msgstr "VNoteは、ノートブック-フォルダ-ノートという階層でノート管理しています。左側のパネルは、ノートブック、フォルダ、ノートをナビゲートするために使用されます。"
 
 #: ../../user_docs/getting_started.md:19
 msgid "At the first time you launch VNote, you will be prompted to create your first notebook. A notebook corresponds to a directory in your file system. You should choose an empty directory as your Notebook Root Folder. All the contents of this notebook will be stored whthin the Notebook Root Folder."
-msgstr ""
+msgstr "最初にVNoteを起動すると、最初のノートブックを作成するようプロンプトが表示されます。ノートブックは、ファイル・システム内のディレクトリに対応しています。ノートブックルートフォルダとして空のディレクトリを選択する必要があります。ノートブックのルートフォルダには、このノートブックのすべての内容が保存されます。"
 
 #: ../../user_docs/getting_started.md:21
 msgid "Once you have a notebook, you could create folders in this notebook. VNote supports infinite levels of folders."
-msgstr ""
+msgstr "ノートブックを作成すると、このノートブックにフォルダを作成できます。VNoteは、無限レベルのフォルダをサポートしています。"
 
 #: ../../user_docs/getting_started.md:23
 msgid "The bottom panel at the left side will list all the notes of current folder. You could create a new note via the context menu."
-msgstr ""
+msgstr "左側の下側のパネルには、現在のフォルダのすべてのノートが表示されます。コンテキストメニューから新しいノートを作成することができます。"
 
 #: ../../user_docs/getting_started.md:25
 msgid "Content Area"
-msgstr ""
+msgstr "コンテンツ領域"
 
 #: ../../user_docs/getting_started.md:26
 msgid "The middle area which occupies most of the space is the Content Area, which is used to read and edit notes. VNote supports opening multiple notes by tabs."
-msgstr ""
+msgstr "スペースの大部分を占める中間領域はコンテンツ領域であり、これを使用してノートを読んだり編集したりすることができます。VNoteでは、複数のノートをタブで開くことができます。"
 
 #: ../../user_docs/getting_started.md:28
 msgid "Tools Dock Widget"
-msgstr ""
+msgstr "ツールドックウィジェット"
 
 #: ../../user_docs/getting_started.md:29
 msgid "At the right-side panel, there are multiple tools to facilitate your reading and editing, such as Outline and Snippets."
-msgstr ""
+msgstr "右側のパネルには、アウトラインやスニペットなどの読み取りと編集を容易にするためのツールが複数用意されています。"
 
 #: ../../user_docs/getting_started.md:31
 msgid "Ready To Go"
-msgstr ""
+msgstr "準備OK"
 
 #: ../../user_docs/getting_started.md:32
 msgid "That is it! Now you could read, edit, and mange your notes in VNote!"
-msgstr ""
+msgstr "以上です!これで、ノートを読んだり、編集したり、メモを作成したりすることができます。"
 

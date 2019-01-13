@@ -3,68 +3,66 @@
 # This file is distributed under the same license as the VNote package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
-msgstr ""
-"Project-Id-Version: VNote 1.11.1\n"
+msgstr "Project-Id-Version: VNote 1.11.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-13 11:49+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-01-12 00:00+0900\n"
+"Last-Translator: Hiroshi Miura <miurahr@linux.com>\n"
+"Language-Team: Japanese <ja@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../user_docs/why_vnote.md:1
 msgid "Why VNote"
-msgstr ""
+msgstr "VNoteの理由"
 
 #: ../../user_docs/why_vnote.md:2
 msgid "What is VNote"
-msgstr ""
+msgstr "VNoteとは"
 
 #: ../../user_docs/why_vnote.md:3
 msgid "VNote is a Vim-inspired Note-taking application, designed specially for Markdown. It is not yet just another Markdown editor. VNote is designed to be a powerful Markdown editor with sweet note management, or a note-taking application with pleasant Markdown experience."
-msgstr ""
+msgstr "VNoteはVimで刺激されたノート作成アプリケーションであり、Markdownのために特別に設計されています。これは、単なるMarkdownエディタの一つというだけではありません。VNoteは、扱いやすいノート管理機能のついた強力なMarkdownエディタ、あるいは快適なMarkdownサポートつきのノート作成アプリケーションを目指しています。"
 
 #: ../../user_docs/why_vnote.md:5
 msgid "VNote is free, and open source. You could get VNote for Linux, Windows, and macOS."
-msgstr ""
+msgstr "VNoteは自由でオープンソースです。Linux、Windows、およびmac OS用のVNoteを入手することができます。"
 
 #: ../../user_docs/why_vnote.md:7
 msgid "Why Another Markdown Wheel"
-msgstr ""
+msgstr "何故Markdown車輪を再発明しないといけないのでしょうか"
 
 #: ../../user_docs/why_vnote.md:8
 msgid "Insights About Markdown"
-msgstr ""
+msgstr "Markdownについての洞察"
 
 #: ../../user_docs/why_vnote.md:9
 msgid "Markdown, as a simple mark language, unlike rich text, was born with a gap between edit and read. There are about three ways to handle this gap:"
-msgstr ""
+msgstr "Markdownは、リッチテキストとは異なり、編集と読み取りの間にあるギャップを持って生まれた、シンプルなマークアップ言語です。このギャップを扱うには、3つの方法があります。"
 
 #: ../../user_docs/why_vnote.md:11
 msgid "As one extreme, some editors just treat Markdown as plain text. Users may lose themselves in the messy black characters. It is hard to keep track of the information of the note."
-msgstr ""
+msgstr "一つの極端な例として、エディタの中には、Markdownをプレーンテキストとして扱うだけのものもある。ユーザーは、ごちゃごちゃした黒い文字で自分を失うことがあります。ノートの情報を追跡するのは難しくなる。"
 
 #: ../../user_docs/why_vnote.md:12
 msgid "Most Markdown editors use two side-by-side panels to edit and preview Markdown notes simultaneously. It makes things easier since users could see a pleasant typesetting and layout while editing the text. However, two panels may occupy the whole screen and users keep moving eyes left and right, which will be a big distraction."
-msgstr ""
+msgstr "ほとんどのMarkdownエディタは、Markdownノートの編集とプレビューを同時に行うために、左右2つのパネルを使用します。ユーザーはテキストの編集中に、楽しいタイプの設定とレイアウトを見ることができるので、より簡単になります。しかし、2つのパネルが画面全体を占め、ユーザは目を左右に動かすことになり、大きな混乱を招くことになりかねません。"
 
 #: ../../user_docs/why_vnote.md:13
 msgid "As another extreme, some editors convert the Markdown elements in place immediately after the typing, which makes editing Markdown just like editing rich text document in Word with some shortcuts. This may conflict with what Markdown is intended to be."
-msgstr ""
+msgstr "もう一つの極端な点として、編集の直後にMarkdown要素を変換するエディタもあり、Wordのリッチテキスト文書を編集するのと同じように、Markdownを編集することができます。これはMarkdownの意図と矛盾する可能性があります。"
 
 #: ../../user_docs/why_vnote.md:15
 msgid "Since most editors choose the second way to handle the gap, people always think of preview when it comes to Markdown. It may be a MISUNDERSTANDING about Markdown. Designed as a simple mark language, Markdown is intended to help to keep track of the information of the text when editing and provide a beautiful typesetting when reading after being converted to HTML."
-msgstr ""
+msgstr "ほとんどのエディタは、ギャップを処理するための2番目の方法を選んでいるので、Markdownをつかうときは、常にプレビューを考えていることになります。これは、Markdownの誤解かもしれません。シンプルなマーク言語として設計されたMarkdownは、編集時にテキストの情報を記録し、HTMLに変換された後に美しいタイプの設定を提供することを目的としています。"
 
 #: ../../user_docs/why_vnote.md:17
 msgid "Tradeoff: VNote's Way"
-msgstr ""
+msgstr "トレードオフ:VNoteの方法"
 
 #: ../../user_docs/why_vnote.md:18
 msgid "VNote tries to minimize the gap and provide the best-effort WYSIWYG for Markdown via tuned syntax highlights and some other features. By helping to keep track of the content, there is no need to preview or alter the text immediately after being typed."
-msgstr ""
+msgstr "VNoteは、チューニングされた構文強調表示とその他の機能によって、ギャップを最小限に抑えて、MarkdownのためにベストエフォートWYSIWYGを提供します。コンテンツを追跡することを助けることにより、テキストを入力した直後にテキストをプレビューしたり変更する必要がなくなります。"
 

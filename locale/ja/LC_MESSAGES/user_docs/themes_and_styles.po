@@ -3,62 +3,60 @@
 # This file is distributed under the same license as the VNote package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
-msgstr ""
-"Project-Id-Version: VNote 1.11.1\n"
+msgstr "Project-Id-Version: VNote 1.11.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-13 11:49+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-01-12 00:00+0900\n"
+"Last-Translator: Hiroshi Miura <miurahr@linux.com>\n"
+"Language-Team: Japanese <ja@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../user_docs/themes_and_styles.md:1
 msgid "Themes and Styles"
-msgstr ""
+msgstr "テーマとスタイル"
 
 #: ../../user_docs/themes_and_styles.md:2
 msgid "Themes"
-msgstr ""
+msgstr "テーマ"
 
 #: ../../user_docs/themes_and_styles.md:3
 msgid "A theme specifies the look of VNote, the style of the editor and read mode, and the syntax highlight style of code block."
-msgstr ""
+msgstr "テーマは、VNoteの外観、エディタのスタイル、および読み込みモードを指定し、コードブロックの構文強調表示スタイルを指定します。"
 
 #: ../../user_docs/themes_and_styles.md:5
 msgid "A theme corresponds to a folder in the themes subfolder in the configuration folder with structure:"
-msgstr ""
+msgstr "テーマは次の構造である設定フォルダ内のテーマサブフォルダと紐づいています："
 
 #: ../../user_docs/themes_and_styles.md:40
 msgid "v_pure.palette: the main entry of a theme, which specifies other files and styles;"
-msgstr ""
+msgstr "v_pure.palette:テーマの主なエントリで、その他のファイルやスタイルを指定します。"
 
 #: ../../user_docs/themes_and_styles.md:41
 msgid "v_pure.qss: file for Qt Style Sheet, which specifies the look of all the widgets;"
-msgstr ""
+msgstr "v_pure.qss:  Qt Style sheetのファイルで、すべてのウィジェットの外観を指定しています。"
 
 #: ../../user_docs/themes_and_styles.md:42
 msgid "v_pure.mdhl: file for the style of Markdown editor, using The Syntax of PEG Markdown Highlight Stylesheets;"
-msgstr ""
+msgstr "v_pure.mdhl: Markdownエディタのスタイル用ファイルで、PEG Markdown Highlight Stylesheets文法でかかれています;"
 
 #: ../../user_docs/themes_and_styles.md:43
 msgid "v_pure.css: file for the style of read mode;"
-msgstr ""
+msgstr "v_pure.css:読み取りモードのスタイル用ファイルです:"
 
 #: ../../user_docs/themes_and_styles.md:44
 msgid "v_pure_codeblock.css: file for the style of the code block highlight in read mode, using Highlight.js;"
-msgstr ""
+msgstr "v_pure_codeblock.css: 読み取りモードのコードブロックの強調表示をする、Highlight.jsを使用したスタイルのファイルです；"
 
 #: ../../user_docs/themes_and_styles.md:46
 msgid "Palette of Theme"
-msgstr ""
+msgstr "テーマのパレット"
 
 #: ../../user_docs/themes_and_styles.md:47
 msgid "Let's look into the .palette file. The file is in INI format."
-msgstr ""
+msgstr ".paletteファイルを調べてみましょう。ファイルは、INI形式です。"
 
 #: ../../user_docs/themes_and_styles.md:49
 msgid "[metadata]"
@@ -66,7 +64,7 @@ msgstr ""
 
 #: ../../user_docs/themes_and_styles.md:50
 msgid "This section specifies other style files this theme will use."
-msgstr ""
+msgstr "このセクションでは、このテーマで使用される他のスタイルファイルを指定します。"
 
 #: ../../user_docs/themes_and_styles.md:64
 msgid "[phony]"
@@ -74,11 +72,11 @@ msgstr ""
 
 #: ../../user_docs/themes_and_styles.md:65
 msgid "This section is used to define variables for fundamental, abstract color attributes. A variable could be referenced by @variable_name to define another variable."
-msgstr ""
+msgstr "このセクションは、基本的な抽象色属性に変数を定義するために使用されます。変数は、@variable_nameによって参照され、別の変数を定義することができます。"
 
 #: ../../user_docs/themes_and_styles.md:67
 msgid "These variables are referenced by other sections, so you are free to choose and define your own ones."
-msgstr ""
+msgstr "これらの変数は他のセクションによって参照されるので、自由に選択して定義することができます。"
 
 #: ../../user_docs/themes_and_styles.md:133
 msgid "[soft_defined]"
@@ -86,7 +84,7 @@ msgstr ""
 
 #: ../../user_docs/themes_and_styles.md:134
 msgid "This section define variables which will be used by VNote code. You MUST define these variables to make VNote looks right."
-msgstr ""
+msgstr "このセクションでは、VNoteコードによって使用される変数を定義します。VNoteが正しく見えるようにするために、これらの変数を定義する必要があります。"
 
 #: ../../user_docs/themes_and_styles.md:174
 msgid "[widgets]"
@@ -94,65 +92,65 @@ msgstr ""
 
 #: ../../user_docs/themes_and_styles.md:175
 msgid "This section defines variables to be used in qss file to define concrete style of different widgets. They are referenced by the qss file."
-msgstr ""
+msgstr "このセクションでは、qssファイルで使用される変数を定義して、さまざまなウィジェットの具体的なスタイルを定義します。これらは、qssファイルによって参照されます。"
 
 #: ../../user_docs/themes_and_styles.md:204
 msgid "The qss file may look like this if you are curious:"
-msgstr ""
+msgstr "qssファイルの中身は次のようになります。"
 
 #: ../../user_docs/themes_and_styles.md:247
 msgid "Custom Themes"
-msgstr ""
+msgstr "カスタムテーマ"
 
 #: ../../user_docs/themes_and_styles.md:248
 msgid "VNote supports custom themes. Just place your theme (folder) to the themes folder, restart VNote and choose your theme in the File menu."
-msgstr ""
+msgstr "VNoteはカスタムテーマをサポートしています。テーマフォルダにテーマ(フォルダ)を置き、VNoteを再起動して、[ファイル]メニューでテーマを選択します。"
 
 #: ../../user_docs/themes_and_styles.md:250
 msgid "The best way to custom a theme is tuning a defaut theme. VNote will output default themes in the themes folder (or if not, you could download it here). Copy a default theme and rename the palette file. Then you could tune it to your taste. Restart of VNote is needed to let the changes take effect."
-msgstr ""
+msgstr "テーマをカスタム化する最良の方法は、既定のテーマを調整することです。VNoteはテーマフォルダに既定のテーマを出力します(なければ、ここでダウンロードできます)。既定のテーマをコピーして、パレットファイルの名前を変更します。その後、好みに合わせて調整することができます。変更を有効にするには、VNoteを再起動する必要があります。"
 
 #: ../../user_docs/themes_and_styles.md:252
 msgid "Editor Styles"
-msgstr ""
+msgstr "エディタのスタイル"
 
 #: ../../user_docs/themes_and_styles.md:253
 msgid "Editor style is specified by a mdhl file. Each theme may carry a mdhl file. You could also apply another mdhl file instead of using the default one specified by the theme. Separate style file could be placed in the styles folder in the configuration folder. Restart of VNote is needed to scan new mdhl files and re-open of notes is needed to apply new style."
-msgstr ""
+msgstr "エディタスタイルは、mdhlファイルによって指定されます。各テーマは、mdhlファイルを持っています。テーマによって指定された既定値を使用する代わりに、別のmdhl ファイルを適用することもできます。スタイルフォルダ内のスタイルフォルダには、別のスタイルファイルを配置できます。新しいmdhl ファイルをスキャンするには、VNoteの再起動が必要です。新しいスタイルを適用するには、ノートの再オープンが必要です。"
 
 #: ../../user_docs/themes_and_styles.md:257
 msgid "Syntax of MDHL File"
-msgstr ""
+msgstr "MDHLファイルの文法"
 
 #: ../../user_docs/themes_and_styles.md:258
 msgid "The mdhl file adopts the The Syntax of PEG Markdown Highlight Stylesheets and expands it to support more elements."
-msgstr ""
+msgstr "mdhl ファイルは、PEG Markdown Highlight Stylesheetの文法を採用しています。そして要素を拡張しています。"
 
 #: ../../user_docs/themes_and_styles.md:362
 msgid "The syntax highlight of the code blocks in edit mode is specified by the VERBATIM element."
-msgstr ""
+msgstr "編集モードでのコードブロックの構文ハイライトは、VERBATIM要素によって指定されます。"
 
 #: ../../user_docs/themes_and_styles.md:364
 msgid "For example, if you want to change the font size of the code block in edit mode, you may need to add the following line under VERBATIM element:"
-msgstr ""
+msgstr "たとえば、編集モードでコードブロックのフォントサイズを変更する場合は、VERBATIMエレメントに次の行を追加する必要があります。"
 
 #: ../../user_docs/themes_and_styles.md:370
 msgid "Rendering Styles"
-msgstr ""
+msgstr "レンダリングスタイル"
 
 #: ../../user_docs/themes_and_styles.md:371
 msgid "Rendering style in read mode is specified by a css file. Each theme may carry a css file. You could also apply another css file instead of using the default one specified by the theme. Separate style file could be placed in the styles folder in the configuration folder. Restart of VNote is needed to scan new css files and re-open of notes is needed to apply new style."
-msgstr ""
+msgstr "読み取りモードでのレンダリングスタイルは、cssファイルによって指定されます。各テーマは、cssファイルを含んでいます。また、テーマによって指定されたデフォルトのファイルを使用する代わりに、別のcssファイルを適用することもできます。スタイルフォルダ内のスタイルフォルダには、別のスタイルファイルを配置できます。新しいcssファイルをスキャンするには、VNoteの再起動が必要です。新しいスタイルを適用するには、ノートを再オープンする必要があります。"
 
 #: ../../user_docs/themes_and_styles.md:375
 msgid "Code Block Rendering Styles"
-msgstr ""
+msgstr "コードブロックのスタイル"
 
 #: ../../user_docs/themes_and_styles.md:376
 msgid "Rendering style in read mode is specified by a css file. Each theme may carry a css file. You could also apply another css file instead of using the default one specified by the theme. Separate style file could be placed in the styles/codeblock_styles folder in the configuration folder. Restart of VNote is needed to scan new css files and re-open of notes is needed to apply new style."
-msgstr ""
+msgstr "読み取りモードでのレンダリングスタイルは、cssファイルによって指定されます。各テーマは、cssファイルを含んでいます。また、テーマによって指定されたデフォルトのファイルを使用する代わりに、別のcssファイルを適用することもできます。構成フォルダのstyles/codeblock_stylesフォルダには、別のスタイルファイルを配置できます。新しいcssファイルをスキャンするには、VNoteの再起動が必要です。新しいスタイルを適用するには、ノートを再オープンする必要があります。"
 
 #: ../../user_docs/themes_and_styles.md:378
 msgid "This file is used by the highlight.js renderer engine. You could download existing style files from Highlight.js Github."
-msgstr ""
+msgstr "このファイルは、highlight.jsレンダラエンジンで使用されます。Highlight.js Githubから既存のスタイルファイルをダウンロードすることができます。"
 
