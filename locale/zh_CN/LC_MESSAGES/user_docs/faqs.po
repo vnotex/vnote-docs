@@ -3,132 +3,130 @@
 # This file is distributed under the same license as the VNote package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
-msgstr ""
-"Project-Id-Version: VNote 1.11.1\n"
+msgstr "Project-Id-Version: VNote 1.11.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-13 11:49+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2019-01-13 12:00+0900\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language-Team: zh_CN <zh_CN@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../user_docs/faqs.md:1
 msgid "Frequently Asked Questions"
-msgstr ""
+msgstr "常见问题"
 
 #: ../../user_docs/faqs.md:2
 msgid "How to specify customized MathJax script?"
-msgstr ""
+msgstr "如何指定自定义的MathJax脚本？"
 
 #: ../../user_docs/faqs.md:3
 msgid "VNote supports a configuration [web]/mathjax_javascript which specifies the location of the MathJax and its configuration to use. The default value may look like this:"
-msgstr ""
+msgstr "VNote支持配置[web]/mathjax_javascript，它指定MathJax的位置及其使用的配置。默认值可能如下所示："
 
 #: ../../user_docs/faqs.md:11
 msgid "You could download the MathJax (howto) and specify a local copy of the MathJax to use, like mathjax_javascript=\"file:///home/tamlok/Downloads/MathJax-2.7.2/MathJax.js?config=TeX-MML-AM_CHTML\"."
-msgstr ""
+msgstr "您可以下载MathJax (howto) 并指定要使用的MathJax的本地副本，例如mathjax_javascript=\"file:///home/tamlok/Downloads/MathJax-2.7.2/MathJax.js?config=TeX-MML-AM_CHTML\"。"
 
 #: ../../user_docs/faqs.md:13
 msgid "You could also specify customized script in GUI settings dialog:"
-msgstr ""
+msgstr "您还可以在GUI设置对话框中指定自定义脚本："
 
 #: ../../user_docs/faqs.md:17
 msgid "Notes:"
-msgstr ""
+msgstr "注意："
 
 #: ../../user_docs/faqs.md:19
 msgid "Need to prepend file:// to the local path;"
-msgstr ""
+msgstr "请在本地路径前加上file://；"
 
 #: ../../user_docs/faqs.md:20
 msgid "Using local path may get the fonts wrong. I think a better way is to run a light HTTP server locally."
-msgstr ""
+msgstr "使用本地路径可能会无法找到字体。一个比较好的方法是在本机上运行一个轻量级的HTTP服务器。"
 
 #: ../../user_docs/faqs.md:22
 msgid "How to make VNote more \"portable\"?"
-msgstr ""
+msgstr "如何让VNote更「便携」？"
 
 #: ../../user_docs/faqs.md:23
 msgid "VNote will read and store configuration files in the common directory of the operating system to store application data. If you prefer to put these configuration files along with the VNote executable, you coulud copy or create the vnote.ini file in the directory containing VNote executable. VNote will first try to read vnote.ini from where the executable exists."
-msgstr ""
+msgstr "VNote将读取并存储配置文件到操作系统的公共目录中以存储应用程序数据。如果您希望将这些配置文件与VNote可执行文件一起放置，则可以在包含VNote可执行文件的目录中复制或创建vnote.ini文件。VNote将首先尝试从可执行文件所在的位置读取vnote.ini。"
 
 #: ../../user_docs/faqs.md:25
 msgid "However, please notice that VNote will store the notebook's path in the configuration file, so it may read a wrong path and complain about errors if you copy VNote to another computer."
-msgstr ""
+msgstr "但请注意，VNote会将笔记本的路径存储在配置文件中，因此如果将VNote复制到另一台计算机，它可能会读取错误的路径并报错。"
 
 #: ../../user_docs/faqs.md:27
 msgid "How to draw diagrams using Mermaid or Flowchart.js?"
-msgstr ""
+msgstr "如何使用Mermaid或Flowchart.js绘制图表？"
 
 #: ../../user_docs/faqs.md:28
 msgid "Enable Mermaid Diagram and Flowchart.js in the Markdown menu;"
-msgstr ""
+msgstr "在Markdown菜单中启用Mermaid Diagram和Flowchart.js；"
 
 #: ../../user_docs/faqs.md:29
 msgid "Re-open opened tabs to let it take effect;"
-msgstr ""
+msgstr "重新打开已打开的标签让它生效；"
 
 #: ../../user_docs/faqs.md:30
 msgid "For Mermaid, write a fenced code block specified with language mermaid;"
-msgstr ""
+msgstr "对于Mermaid，用mermaid语言编写一个码块；"
 
 #: ../../user_docs/faqs.md:31
 msgid "For Flowchart.js, write a fenced code block specified with language flowchart or flow;"
-msgstr ""
+msgstr "对于Flowchart.js，用flowchart 或flow语言编写代码块；"
 
 #: ../../user_docs/faqs.md:33
 msgid "Mermaid example:"
-msgstr ""
+msgstr "Mermaid的例子："
 
 #: ../../user_docs/faqs.md:43
 msgid "Flowchart.js example:"
-msgstr ""
+msgstr "Flowchart.js例子："
 
 #: ../../user_docs/faqs.md:59
 msgid "How to open a note in another tab?"
-msgstr ""
+msgstr "如何在另一个标签中打开笔记？"
 
 #: ../../user_docs/faqs.md:62
 msgid "When Single click to open a note in current tab is enabled, single-click in the note list to open the note in current tab, while double-click to open it in a new tab."
-msgstr ""
+msgstr "当单击在当前标签中打开该笔记是可用的，在笔记列表中单击一个笔记本可以在当前的标签中打开，而双击笔记列表的笔记则在新标签中打开它。"
 
 #: ../../user_docs/faqs.md:64
 msgid "Interface is freezed"
-msgstr ""
+msgstr "界面无响应"
 
 #: ../../user_docs/faqs.md:65
 msgid "Cursor is not visible in edit mode"
-msgstr ""
+msgstr "编辑模式中没有光标"
 
 #: ../../user_docs/faqs.md:66
 msgid "Crash when opening a note"
-msgstr ""
+msgstr "打开一个笔记后软件异常退出"
 
 #: ../../user_docs/faqs.md:67
 msgid "Menu does not work in fullscreen mode"
-msgstr ""
+msgstr "全屏模式中菜单无法正常显示"
 
 #: ../../user_docs/faqs.md:68
 msgid "All the above 4 issues may be caused by the driver of the display card. Steps to solve it:"
-msgstr ""
+msgstr "以上这4个问题可能是由显卡驱动引起的。建议解决步骤："
 
 #: ../../user_docs/faqs.md:70
 msgid "On Windows, try to update the display card driver;"
-msgstr ""
+msgstr "如果是Windows系统，可以尝试更新显卡驱动；"
 
 #: ../../user_docs/faqs.md:71
 msgid "Try to schedule VNote to run with integrated display card;"
-msgstr ""
+msgstr "尝试指定VNote使用集成显卡；"
 
 #: ../../user_docs/faqs.md:72
 msgid "If not works, try to declare a system environment variable named QT_OPENGL and set its value to desktop, or angle, or software."
-msgstr ""
+msgstr "如果还不能解决，尝试新建一个系统环境变量QT_OPENGL，可以尝试的值包括desktop或angle或software。"
 
 #: ../../user_docs/faqs.md:74
 msgid "Restart of VNote is needed after the action."
-msgstr ""
+msgstr "在以上操作之后，需要重启VNote。"
 

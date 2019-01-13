@@ -3,82 +3,80 @@
 # This file is distributed under the same license as the VNote package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
-msgstr ""
-"Project-Id-Version: VNote 1.11.1\n"
+msgstr "Project-Id-Version: VNote 1.11.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-13 11:49+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2019-01-13 12:00+0900\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language-Team: zh_CN <zh_CN@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../user_docs/export.md:1
 msgid "Export"
-msgstr ""
+msgstr "导出"
 
 #: ../../user_docs/export.md:2
 msgid "VNote supports rich and extensible export."
-msgstr ""
+msgstr "VNote支持丰富且可扩展的导出。"
 
 #: ../../user_docs/export.md:6
 msgid "Sources"
-msgstr ""
+msgstr "来源"
 
 #: ../../user_docs/export.md:7
 msgid "There are four sources to select which notes to export."
-msgstr ""
+msgstr "有四种来源可供选择需要导出的笔记。"
 
 #: ../../user_docs/export.md:9
 msgid "Current Note"
-msgstr ""
+msgstr "当前笔记"
 
 #: ../../user_docs/export.md:10
 msgid "Export current note;"
-msgstr ""
+msgstr "导出当前笔记；"
 
 #: ../../user_docs/export.md:11
 msgid "Current Folder"
-msgstr ""
+msgstr "当前文件夹"
 
 #: ../../user_docs/export.md:12
 msgid "Export all the notes within current folder;"
-msgstr ""
+msgstr "导出当前文件夹中的所有笔记；"
 
 #: ../../user_docs/export.md:13
 msgid "Support export subfolders recursively;"
-msgstr ""
+msgstr "支持递归导出子文件夹；"
 
 #: ../../user_docs/export.md:14
 msgid "Current Notebook"
-msgstr ""
+msgstr "当前笔记本"
 
 #: ../../user_docs/export.md:15
 msgid "Export all the notes of current notebook;"
-msgstr ""
+msgstr "导出当前笔记本的所有笔记；"
 
 #: ../../user_docs/export.md:16
 msgid "Cart"
-msgstr ""
+msgstr "小推车"
 
 #: ../../user_docs/export.md:17
 msgid "Cart is a tool to collect random notes for further processing."
-msgstr ""
+msgstr "小推车是一个收集随机笔记以便进一步处理的工具。"
 
 #: ../../user_docs/export.md:19
 msgid "Options"
-msgstr ""
+msgstr "选项"
 
 #: ../../user_docs/export.md:20
 msgid "We could specify Markdown renderer, Markdown rendering background, Markdown rendering style, and Markdown rendering code block style for the export. For example, we could specify a transparent background when we export PDFs."
-msgstr ""
+msgstr "我们可以为导出指定Markdown渲染器，Markdown渲染背景，Markdown渲染样式和Markdown渲染代码块样式。例如，我们可以在导出为PDFs时指定透明背景。"
 
 #: ../../user_docs/export.md:22
 msgid "Formats"
-msgstr ""
+msgstr "格式"
 
 #: ../../user_docs/export.md:23
 msgid "Markdown"
@@ -86,7 +84,7 @@ msgstr ""
 
 #: ../../user_docs/export.md:24
 msgid "We could export a Markdown note as Markdown format. For a note named vnote.md, VNote will create a folder named vnote_md, then copy the vnote.md to this folder, then copy local images of this note, then copy the attachments of this note. After this, we could compress this folder and share it."
-msgstr ""
+msgstr "我们可以将Markdown类型的笔记导出为Markdown格式。对于名为vnote.md的笔记，VNote将创建名为vnote_md的文件夹，然后将vnote_md复制到此文件夹，然后复制此笔记的本地图像，然后复制此笔记的附件。在此之后，我们可以压缩此文件夹并共享它。"
 
 #: ../../user_docs/export.md:26
 msgid "HTML"
@@ -94,23 +92,23 @@ msgstr ""
 
 #: ../../user_docs/export.md:27
 msgid "When exporting a note as HTML format, VNote will first render the Markdown note and then output the HTML as a file. Advanced settings of HTML format includes:"
-msgstr ""
+msgstr "将注释导出为HTML格式时，VNote将首先呈现笔记的Markdown格式，然后将HTML作为文件输出。HTML格式的高级设置包括："
 
 #: ../../user_docs/export.md:29
 msgid "Embed CSS styles"
-msgstr ""
+msgstr "嵌入CSS样式"
 
 #: ../../user_docs/export.md:30
 msgid "Embed CSS styles in the exported HTML file."
-msgstr ""
+msgstr "在导出的HTML文件中嵌入CSS样式。"
 
 #: ../../user_docs/export.md:31
 msgid "Complete page"
-msgstr ""
+msgstr "完整页面"
 
 #: ../../user_docs/export.md:32
 msgid "When checked, VNote will also export related images besides the HTML file. If not checked, you may lose local images."
-msgstr ""
+msgstr "选中后，VNote还将导出除HTML文件之外的相关图像。如果未选中，则可能会丢失本地图像。"
 
 #: ../../user_docs/export.md:33
 msgid "MIME HTML"
@@ -118,7 +116,7 @@ msgstr ""
 
 #: ../../user_docs/export.md:34
 msgid "Export the MIME HTML format."
-msgstr ""
+msgstr "导出MIME HTML格式。"
 
 #: ../../user_docs/export.md:36
 msgid "PDF"
@@ -126,15 +124,15 @@ msgstr ""
 
 #: ../../user_docs/export.md:37
 msgid "VNote supports exporting notes as PDF files. Page size and margins are configurable. There are two engines to choose to do the export."
-msgstr ""
+msgstr "VNote支持将笔记导出为PDF文件。页面大小和边距是可配置的。有两个引擎可供选择执行导出。"
 
 #: ../../user_docs/export.md:39
 msgid "Built-In Engine"
-msgstr ""
+msgstr "内置引擎"
 
 #: ../../user_docs/export.md:40
 msgid "The built-in engine works better with the content, but lacks the bookmark in the generated PDF file."
-msgstr ""
+msgstr "内置引擎可以更好地处理内容，但在生成的PDF文件中缺少书签。"
 
 #: ../../user_docs/export.md:42
 msgid "wkhtmltopdf"
@@ -142,150 +140,150 @@ msgstr ""
 
 #: ../../user_docs/export.md:43
 msgid "wkhtmltopdf is a third-party tool to convert HTML to PDF. You need to install this extra tool which will be used by VNote. When using this engine, VNote will first convert the Markdown notes to HTML format, and then call wkhtmltopdf with the generated HTML files as input."
-msgstr ""
+msgstr "wkhtmltopdf是将HTML转换为PDF的第三方工具。您需要额外安装这个VNote将使用的工具。使用此引擎时，VNote将首先将Markdown注释转换为HTML格式，然后使用生成的HTML文件作为输入调用wkhtmltopdf。"
 
 #: ../../user_docs/export.md:47
 msgid "Advanced settings includes:"
-msgstr ""
+msgstr "高级设置包括："
 
 #: ../../user_docs/export.md:49
 msgid "wkhtmltopdf path"
-msgstr ""
+msgstr "wkhtmltopdf 路径"
 
 #: ../../user_docs/export.md:50
 msgid "Path of the wkhtmltopdf executable."
-msgstr ""
+msgstr "wkhtmltopdf可执行文件的路径。"
 
 #: ../../user_docs/export.md:51
 msgid "Title"
-msgstr ""
+msgstr "标题"
 
 #: ../../user_docs/export.md:52
 msgid "Title of the generated PDF. It is only valid when All In One is enabled."
-msgstr ""
+msgstr "生成的PDF的标题。它仅在启用All In One时有效。"
 
 #: ../../user_docs/export.md:53
 #: ../../user_docs/export.md:78
 msgid "Output file name"
-msgstr ""
+msgstr "输出的文件名"
 
 #: ../../user_docs/export.md:54
 msgid "The name of the generated PDF file. It is only valid when All In One is enabled."
-msgstr ""
+msgstr "生成的PDF文件的名称。它仅在启用All In One时有效。"
 
 #: ../../user_docs/export.md:55
 msgid "Page Number"
-msgstr ""
+msgstr "页码"
 
 #: ../../user_docs/export.md:56
 msgid "Whether append page number to every page and the position of it."
-msgstr ""
+msgstr "是否将页码附加到每个页面及其位置。"
 
 #: ../../user_docs/export.md:57
 msgid "Enable background"
-msgstr ""
+msgstr "启用背景"
 
 #: ../../user_docs/export.md:58
 msgid "Whether enable the background of the HTML."
-msgstr ""
+msgstr "是否启用HTML的背景。"
 
 #: ../../user_docs/export.md:59
 msgid "Additional options"
-msgstr ""
+msgstr "其他选项"
 
 #: ../../user_docs/export.md:60
 msgid "Additional global options which will be passed to wkhtmltopdf. For available options, please reference the documentation of wkhtmltopdf."
-msgstr ""
+msgstr "其他全局选项将传递给wkhtmltopdf。有关可用选项，请参阅wkhtmltopdf的文档。"
 
 #: ../../user_docs/export.md:62
 msgid "PDF (All In One)"
-msgstr ""
+msgstr "PDF（All In One）"
 
 #: ../../user_docs/export.md:63
 msgid "When choosing this format, VNote will utilize the wkhtmltopdf tool to convert multiple Markdown notes into one PDF file. To make this work well, a good practice in using VNote is to turn on Heading Sequence starting from level 2 and insert the title as level 1 heading for each note."
-msgstr ""
+msgstr "选择此格式时，VNote将使用wkhtmltopdf工具将多个Markdown笔记转换为一个PDF文件。为了使这项工作顺利进行，一个实用技巧是从二级标题作为标题序列的开始，并将每个笔记的名称以一级标题形式插入。"
 
 #: ../../user_docs/export.md:65
 msgid "Custom"
-msgstr ""
+msgstr "自定义"
 
 #: ../../user_docs/export.md:66
 msgid "The Custom format enable users to choose whatever tool they like to process notes."
-msgstr ""
+msgstr "自定义格式使用户可以选择他们喜欢的任何工具来处理笔记。"
 
 #: ../../user_docs/export.md:70
 msgid "Advanced settings:"
-msgstr ""
+msgstr "高级设置："
 
 #: ../../user_docs/export.md:72
 msgid "Source format"
-msgstr ""
+msgstr "格式来源"
 
 #: ../../user_docs/export.md:73
 msgid "VNote supports using Markdown or HTML format as the inputs to your tool."
-msgstr ""
+msgstr "VNote支持使用Markdown或HTML格式作为输入的工具。"
 
 #: ../../user_docs/export.md:74
 msgid "Output suffix"
-msgstr ""
+msgstr "输出后缀"
 
 #: ../../user_docs/export.md:75
 msgid "The suffix of the output file, such as docx, pdf, or ppt."
-msgstr ""
+msgstr "输出文件的后缀，例如docx，pdf或ppt。"
 
 #: ../../user_docs/export.md:76
 msgid "Enable All In One"
-msgstr ""
+msgstr "启用All In One"
 
 #: ../../user_docs/export.md:77
 msgid "Whether put multiple notes as the input once to your tool. They are separated by spaces."
-msgstr ""
+msgstr "是否将多个笔记一次性输入到您的工具中。它们由空格分隔。"
 
 #: ../../user_docs/export.md:79
 msgid "The file name of the output. It is only valid when All In One is enabled."
-msgstr ""
+msgstr "输出的文件名。它仅在启用All In One时有效。"
 
 #: ../../user_docs/export.md:80
 msgid "Input directories separator"
-msgstr ""
+msgstr "输入目录分隔符"
 
 #: ../../user_docs/export.md:81
 msgid "VNote could pass the directories of the input notes to your tool. You could use these directories as the resource folders. This option specifies the separator to concatenate these directories."
-msgstr ""
+msgstr "VNote可以将输入笔记的目录传递给您的工具。您可以使用这些目录作为来源文件夹。此选项指定用于连接这些目录的分隔符。"
 
 #: ../../user_docs/export.md:82
 msgid "Command"
-msgstr ""
+msgstr "命令"
 
 #: ../../user_docs/export.md:83
 msgid "The command executed by VNote. Some special place holder you could use:"
-msgstr ""
+msgstr "该命令由VNote执行。您可以使用的一些特殊占位符："
 
 #: ../../user_docs/export.md:84
 msgid "%0: the input files;"
-msgstr ""
+msgstr "％0：输入文件；"
 
 #: ../../user_docs/export.md:85
 msgid "%1: the output file;"
-msgstr ""
+msgstr "％1：输出文件；"
 
 #: ../../user_docs/export.md:86
 msgid "%2: the rendering CSS style file to be used;"
-msgstr ""
+msgstr "％2：要使用的渲染CSS样式的文件；"
 
 #: ../../user_docs/export.md:87
 msgid "%3: the input file directories;"
-msgstr ""
+msgstr "％3：输入文件目录；"
 
 #: ../../user_docs/export.md:88
 msgid "%4: the rendering code block CSS style file to be used;"
-msgstr ""
+msgstr "％4：渲染代码块要使用的CSS样式的文件；"
 
 #: ../../user_docs/export.md:90
 msgid "An example to use pandoc to export notes:"
-msgstr ""
+msgstr "使用pandoc导出笔记的示例："
 
 #: ../../user_docs/export.md:96
 msgid "Then if the output suffix is pdf, it will generate the PDF file; if it is docx, it will generate the DOCX file."
-msgstr ""
+msgstr "如果之后输出的后缀是pdf，它将生成PDF文件；如果是docx，它将生成DOCX文件。"
 

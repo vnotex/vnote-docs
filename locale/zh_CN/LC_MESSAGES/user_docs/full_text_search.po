@@ -3,46 +3,44 @@
 # This file is distributed under the same license as the VNote package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
-msgstr ""
-"Project-Id-Version: VNote 1.11.1\n"
+msgstr "Project-Id-Version: VNote 1.11.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-13 11:49+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2019-01-13 12:00+0900\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language-Team: zh_CN <zh_CN@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../user_docs/full_text_search.md:1
 msgid "Full-Text Search"
-msgstr ""
+msgstr "全文搜索"
 
 #: ../../user_docs/full_text_search.md:2
 msgid "VNote provides powerful built-in full-text search to search your notes."
-msgstr ""
+msgstr "VNote提供强大的内置的全文搜索功能，以搜索您的笔记。"
 
 #: ../../user_docs/full_text_search.md:4
 msgid "Ctrl+E C or Ctrl+Alt F to activate the Search dock widget. You could also activate it through the Edit or View menu."
-msgstr ""
+msgstr "按Ctrl+E C 或Ctrl+Alt F 激活搜索坞小部件。您也可以通过编辑或查看菜单激活它。"
 
 #: ../../user_docs/full_text_search.md:8
 msgid "Keywords"
-msgstr ""
+msgstr "关键词"
 
 #: ../../user_docs/full_text_search.md:9
 msgid "Specify the keywords to search for;"
-msgstr ""
+msgstr "指定要搜索的关键字；"
 
 #: ../../user_docs/full_text_search.md:10
 msgid "Support && and || for AND and OR logics, such as markdown && vnote;"
-msgstr ""
+msgstr "支持&&和| 用于AND和OR逻辑，例如markdown && vnote；"
 
 #: ../../user_docs/full_text_search.md:11
 msgid "Space-separated keywords mean AND, such as markdown vnote;"
-msgstr ""
+msgstr "以空格分隔的关键字表示AND，例如 markdown vnote；"
 
 #: ../../user_docs/full_text_search.md:13
 msgid "Magic Switch"
@@ -50,89 +48,89 @@ msgstr ""
 
 #: ../../user_docs/full_text_search.md:14
 msgid "VNote supports Magic Switch in the keywords to turn on/off some options of the search:"
-msgstr ""
+msgstr "VNote支持关键字中的Magic Switch来打开/关闭搜索的某些选项："
 
 #: ../../user_docs/full_text_search.md:16
 msgid "\\f or \\F: disable or enable Fuzzy Search;"
-msgstr ""
+msgstr "\\f或\\F：禁用或启用模糊搜索；"
 
 #: ../../user_docs/full_text_search.md:17
 msgid "\\c or \\C: case insensitive or sensitive;"
-msgstr ""
+msgstr "\\c或\\C：不区分大小写或敏感；"
 
 #: ../../user_docs/full_text_search.md:18
 msgid "\\r or \\R: disable or enable Regular Expression;"
-msgstr ""
+msgstr "\\r或\\R：禁用或启用正则表达式；"
 
 #: ../../user_docs/full_text_search.md:19
 msgid "\\w or \\W: disable or enable Whole Word Only;"
-msgstr ""
+msgstr "\\w或\\W：禁用或启用仅限全字；"
 
 #: ../../user_docs/full_text_search.md:21
 msgid "Example: vnote \\C \\W to search vnote with case-insensitive and whole-word-only."
-msgstr ""
+msgstr "例子：vnote \\C \\W用于不区分大小写并且仅限全字搜索vnote。"
 
 #: ../../user_docs/full_text_search.md:23
 msgid "Scope"
-msgstr ""
+msgstr "范围"
 
 #: ../../user_docs/full_text_search.md:24
 msgid "There are four scopes to constrain the search:"
-msgstr ""
+msgstr "限制搜索有四个范围："
 
 #: ../../user_docs/full_text_search.md:26
 msgid "Opened Notes;"
-msgstr ""
+msgstr "已打开笔记；"
 
 #: ../../user_docs/full_text_search.md:27
 msgid "Current Folder;"
-msgstr ""
+msgstr "当前文件夹"
 
 #: ../../user_docs/full_text_search.md:28
 msgid "Current Notebook;"
-msgstr ""
+msgstr "当前笔记本"
 
 #: ../../user_docs/full_text_search.md:29
 msgid "All Notebooks;"
-msgstr ""
+msgstr "所有笔记本；"
 
 #: ../../user_docs/full_text_search.md:31
 msgid "Object"
-msgstr ""
+msgstr "对象"
 
 #: ../../user_docs/full_text_search.md:32
 msgid "Specify whether the search should be executed against the Content or the Name."
-msgstr ""
+msgstr "指定是否应对内容或名称执行搜索。"
 
 #: ../../user_docs/full_text_search.md:34
 msgid "Target"
-msgstr ""
+msgstr "目标"
 
 #: ../../user_docs/full_text_search.md:35
 msgid "We could search among:"
-msgstr ""
+msgstr "我们可以搜索："
 
 #: ../../user_docs/full_text_search.md:37
 msgid "Note;"
-msgstr ""
+msgstr "笔记；"
 
 #: ../../user_docs/full_text_search.md:38
 msgid "Folder;"
-msgstr ""
+msgstr "文件夹；"
 
 #: ../../user_docs/full_text_search.md:39
 msgid "Notebook;"
-msgstr ""
+msgstr "笔记本；"
 
 #: ../../user_docs/full_text_search.md:40
 msgid "Note/Folder/Notebook;"
-msgstr ""
+msgstr "笔记/文件夹/笔记本；"
 
 #: ../../user_docs/full_text_search.md:42
 msgid "File Pattern"
-msgstr ""
+msgstr "文件模式"
 
 #: ../../user_docs/full_text_search.md:43
 msgid "We could specify the file pattern to filter the files we are interested in, such as *.md to search only Markdown files."
-msgstr ""
+msgstr "我们可以指定文件模式来过滤以获得我们感兴趣的文件，例如*.md以仅搜索Markdown文件。"
 

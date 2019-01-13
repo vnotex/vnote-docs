@@ -3,44 +3,42 @@
 # This file is distributed under the same license as the VNote package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
-msgstr ""
-"Project-Id-Version: VNote 1.11.1\n"
+msgstr "Project-Id-Version: VNote 1.11.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-13 11:49+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2019-01-13 12:00+0900\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language-Team: zh_CN <zh_CN@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../user_docs/template.md:1
 msgid "Template"
-msgstr ""
+msgstr "模板"
 
 #: ../../user_docs/template.md:2
 msgid "VNote supports creating a note from a template."
-msgstr ""
+msgstr "VNote支持基于模板创建笔记。"
 
 #: ../../user_docs/template.md:4
 msgid "When creating a note, you could choose one template in the dialog."
-msgstr ""
+msgstr "创建笔记时，您可以在对话框中选择一个模板。"
 
 #: ../../user_docs/template.md:8
 msgid "VNote stores template files in the templates subfolder of the configuration folders. One file corresponds to one template. You could access the template folder by clicking the \"folder\" icon  besides the combo box."
-msgstr ""
+msgstr "VNote将模板文件存储在配置文件夹的templates子文件夹中。一个文件对应一个模板。您可以通过单击组合框旁边的「文件夹」图标来访问模板文件夹。"
 
 #: ../../user_docs/template.md:10
 msgid "You could add or delete template files in the template folder via system's file browser."
-msgstr ""
+msgstr "您可以通过系统的文件浏览器在模板文件夹中添加或删除模板文件。"
 
 #: ../../user_docs/template.md:12
 msgid "VNote supports Magic Word in template. For example, you could write a template like this:"
-msgstr ""
+msgstr "VNote支持模板中的Magic Word。例如，您可以编写如下模板："
 
 #: ../../user_docs/template.md:19
 msgid "%no% is a magic word which will be evaluated to the note name (without suffix). Hence if the note name is week report.md, then the new note will look like this:"
-msgstr ""
+msgstr "%no% 是一个Magic Word，将笔记的名称自动识别为标题（不带后缀）。因此，如果笔记命名为 week report.md，则新笔记将如下所示："
 
