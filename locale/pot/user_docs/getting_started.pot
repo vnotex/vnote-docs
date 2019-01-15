@@ -1,0 +1,94 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Le Tan
+# This file is distributed under the same license as the VNote package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: VNote 1.11.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-13 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../user_docs/getting_started.md:1
+msgid "Getting Started"
+msgstr ""
+
+#: ../../user_docs/getting_started.md:2
+msgid "VNote is distributed on Linux, Windows, and macOS. You could always download standalone packages from the Downloads page."
+msgstr ""
+
+#: ../../user_docs/getting_started.md:4
+msgid "It is recommended to download and use the stable releases of VNote. If you prefer to use some latest features of VNote, you could try the latest continuous build from master branch."
+msgstr ""
+
+#: ../../user_docs/getting_started.md:6
+msgid "Besides the standalone packages, some package managers may already package and distribute VNote, such as AUR, and homebrew cask."
+msgstr ""
+
+#: ../../user_docs/getting_started.md:8
+msgid "Main Interface"
+msgstr ""
+
+#: ../../user_docs/getting_started.md:9
+msgid "Here is a snapshot of VNote's main interface."
+msgstr ""
+
+#: ../../user_docs/getting_started.md:13
+msgid "Menubar and Toolbar"
+msgstr ""
+
+#: ../../user_docs/getting_started.md:14
+msgid "VNote provides some settings via Menubar at the top of the window and provides some handy shortcuts via Toolbar right below the menubar. Place mouse over the menu item or button, there is a tooltip or status tip to help illustrating the function of that item or button."
+msgstr ""
+
+#: ../../user_docs/getting_started.md:16
+msgid "Notebooks, Folders, and Notes"
+msgstr ""
+
+#: ../../user_docs/getting_started.md:17
+msgid "VNote uses Notebooks, Folders, and Notes hierarchy for note management. The left-side panel is used to navigate through your notebooks, folders, and notes."
+msgstr ""
+
+#: ../../user_docs/getting_started.md:19
+msgid "At the first time you launch VNote, you will be prompted to create your first notebook. A notebook corresponds to a directory in your file system. You should choose an empty directory as your Notebook Root Folder. All the contents of this notebook will be stored whthin the Notebook Root Folder."
+msgstr ""
+
+#: ../../user_docs/getting_started.md:21
+msgid "Once you have a notebook, you could create folders in this notebook. VNote supports infinite levels of folders."
+msgstr ""
+
+#: ../../user_docs/getting_started.md:23
+msgid "The bottom panel at the left side will list all the notes of current folder. You could create a new note via the context menu."
+msgstr ""
+
+#: ../../user_docs/getting_started.md:25
+msgid "Content Area"
+msgstr ""
+
+#: ../../user_docs/getting_started.md:26
+msgid "The middle area which occupies most of the space is the Content Area, which is used to read and edit notes. VNote supports opening multiple notes by tabs."
+msgstr ""
+
+#: ../../user_docs/getting_started.md:28
+msgid "Tools Dock Widget"
+msgstr ""
+
+#: ../../user_docs/getting_started.md:29
+msgid "At the right-side panel, there are multiple tools to facilitate your reading and editing, such as Outline and Snippets."
+msgstr ""
+
+#: ../../user_docs/getting_started.md:31
+msgid "Ready To Go"
+msgstr ""
+
+#: ../../user_docs/getting_started.md:32
+msgid "That is it! Now you could read, edit, and mange your notes in VNote!"
+msgstr ""
+

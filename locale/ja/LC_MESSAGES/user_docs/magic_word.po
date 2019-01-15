@@ -1,0 +1,76 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Le Tan
+# This file is distributed under the same license as the VNote package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr "Project-Id-Version: VNote 1.11.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-13 11:49+0900\n"
+"PO-Revision-Date: 2019-01-12 00:00+0900\n"
+"Last-Translator: Hiroshi Miura <miurahr@linux.com>\n"
+"Language-Team: Japanese <ja@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../user_docs/magic_word.md:1
+msgid "Magic Word"
+msgstr "マジックワード"
+
+#: ../../user_docs/magic_word.md:2
+msgid "Magic Words are some characters that have special meanings. They will be evaluated to some pre-defined characters. For one simple example, date could be evaluated to the date of today."
+msgstr "マジックワードとは、特殊な意味を持つキャラクターです。これらは事前定義された文字に対して評価されます。1つの単純な例では、日付を今日の日付に評価することができます。"
+
+#: ../../user_docs/magic_word.md:4
+msgid "VNote support snippets in most of the input widgets. For example, you could use snippet for the note name when creating a note."
+msgstr "ほとんどの入力ウィジェットでは、VNoteがスニペットをサポートしています。たとえば、ノートの作成時にノート名にスニペットを使用することができます。"
+
+#: ../../user_docs/magic_word.md:6
+msgid "%da% work log.md will be evaluated as 20180128 work log.md since %da% is a magic word which is defined as the date of today in the form YYYYMMDD."
+msgstr "%da%worklog.md は、20180128worklog.md として評価されます。%da%は、今日の日付のYYYYMMDDという形式として定義されているマジックワードです。"
+
+#: ../../user_docs/magic_word.md:8
+msgid "In the editor, you could type %da%, and then press shortcut Ctrl+E M, which will evaluate the word under cursor as magic word."
+msgstr "エディタで%da%と入力してからショートカットCtrl+E Mを押すと、カーソルの下にある単語がマジックワードとして評価されます。"
+
+#: ../../user_docs/magic_word.md:10
+msgid "For example, type following words:"
+msgstr "たとえば、次の単語を入力します："
+
+#: ../../user_docs/magic_word.md:16
+msgid "Then press Ctrl+E M, it will be changed to:"
+msgstr "次に、Ctrl+E Mを押すと、次のように変化します："
+
+#: ../../user_docs/magic_word.md:22
+msgid "Built-In Magic Words"
+msgstr "ビルトインマジックワード"
+
+#: ../../user_docs/magic_word.md:23
+msgid "VNote has defined lots of magic words. In the input dialog, type %help% to show a list of defined magic words."
+msgstr "定義されたすべてのマジックワードに関する情報定義されたすべてのマジックワードに関する情報"
+
+#: ../../user_docs/magic_word.md:27
+msgid "Custom Magic Words"
+msgstr "whi全てのマジックワード:"
+
+#: ../../user_docs/magic_word.md:28
+msgid "Edit the vnote.ini file in configuration folder like this:"
+msgstr "次のように、構成フォルダのvnote.iniファイルを編集します。"
+
+#: ../../user_docs/magic_word.md:39
+msgid "Now we got two magic words vnote (based on another magic word datetime) and hw."
+msgstr "これで、2つのマジックワードvnote(別のマジックワードdatetimeに基づく)とhwが得られました。"
+
+#: ../../user_docs/magic_word.md:41
+msgid "Magic Word In Snippet"
+msgstr "スニペットでのマジックワード"
+
+#: ../../user_docs/magic_word.md:42
+msgid "Snippet also supports magic word. Now we could define a snippet to insert current date like this:"
+msgstr "スニペットは、マジックワードもサポートしています。たとえば、つぎのようにして現在の日付を挿入するスニペットを定義できます。"
+
+#: ../../user_docs/magic_word.md:46
+msgid "Now in edit mode, we could hit Ctrl+E S D to insert current date."
+msgstr "編集モードでは、Ctrl+E S Dを押して現在の日付を挿入することができます。"
+

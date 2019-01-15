@@ -1,0 +1,76 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Le Tan
+# This file is distributed under the same license as the VNote package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr "Project-Id-Version: VNote 1.11.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-13 11:49+0900\n"
+"PO-Revision-Date: 2019-01-13 12:00+0900\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: zh_CN <zh_CN@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../user_docs/magic_word.md:1
+msgid "Magic Word"
+msgstr "幻词"
+
+#: ../../user_docs/magic_word.md:2
+msgid "Magic Words are some characters that have special meanings. They will be evaluated to some pre-defined characters. For one simple example, date could be evaluated to the date of today."
+msgstr "幻词是一些具有特殊含义的字符。它们将被识别为一些预先定义好的字符。举一个简单的例子，date可以识别为今天的日期。"
+
+#: ../../user_docs/magic_word.md:4
+msgid "VNote support snippets in most of the input widgets. For example, you could use snippet for the note name when creating a note."
+msgstr "VNote在大多数输入窗口小部件中支持片段插入。例如，您可以在创建备注时插入片段作为备注名称。"
+
+#: ../../user_docs/magic_word.md:6
+msgid "%da% work log.md will be evaluated as 20180128 work log.md since %da% is a magic word which is defined as the date of today in the form YYYYMMDD."
+msgstr "%da% work log.md将识别为20180128 work log.md ，因为%da%是一个幻词，它以YYYYMMDD的形式定义为今天的日期。"
+
+#: ../../user_docs/magic_word.md:8
+msgid "In the editor, you could type %da%, and then press shortcut Ctrl+E M, which will evaluate the word under cursor as magic word."
+msgstr "在编辑器中，您可以键入 %da%，然后按快捷键 Ctrl+E M，它将光标下的单词识别为幻词。"
+
+#: ../../user_docs/magic_word.md:10
+msgid "For example, type following words:"
+msgstr "例如，键入以下单词："
+
+#: ../../user_docs/magic_word.md:16
+msgid "Then press Ctrl+E M, it will be changed to:"
+msgstr "然后按 Ctrl+E M，它将更改为："
+
+#: ../../user_docs/magic_word.md:22
+msgid "Built-In Magic Words"
+msgstr "内置幻词"
+
+#: ../../user_docs/magic_word.md:23
+msgid "VNote has defined lots of magic words. In the input dialog, type %help% to show a list of defined magic words."
+msgstr "VNote定义了许多幻词。在输入对话框中，键入%help% 以显示已定义的幻词列表。"
+
+#: ../../user_docs/magic_word.md:27
+msgid "Custom Magic Words"
+msgstr "自定义幻词"
+
+#: ../../user_docs/magic_word.md:28
+msgid "Edit the vnote.ini file in configuration folder like this:"
+msgstr "在配置文件夹中编辑 vnote.ini 文件，如下所示："
+
+#: ../../user_docs/magic_word.md:39
+msgid "Now we got two magic words vnote (based on another magic word datetime) and hw."
+msgstr "现在我们得到了两个幻词分别是：vnote（基于另一个幻词datetime）和hw。"
+
+#: ../../user_docs/magic_word.md:41
+msgid "Magic Word In Snippet"
+msgstr "在片段中的幻词"
+
+#: ../../user_docs/magic_word.md:42
+msgid "Snippet also supports magic word. Now we could define a snippet to insert current date like this:"
+msgstr "Snippet 也支持幻词。现在我们可以定义一个片段来插入当前日期，如下所示："
+
+#: ../../user_docs/magic_word.md:46
+msgid "Now in edit mode, we could hit Ctrl+E S D to insert current date."
+msgstr "现在处于编辑模式，我们可以按Ctrl+E S D来插入当前日期。"
+

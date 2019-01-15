@@ -1,0 +1,70 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Le Tan
+# This file is distributed under the same license as the VNote package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: VNote 1.11.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-13 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../user_docs/why_vnote.md:1
+msgid "Why VNote"
+msgstr ""
+
+#: ../../user_docs/why_vnote.md:2
+msgid "What is VNote"
+msgstr ""
+
+#: ../../user_docs/why_vnote.md:3
+msgid "VNote is a Vim-inspired Note-taking application, designed specially for Markdown. It is not yet just another Markdown editor. VNote is designed to be a powerful Markdown editor with sweet note management, or a note-taking application with pleasant Markdown experience."
+msgstr ""
+
+#: ../../user_docs/why_vnote.md:5
+msgid "VNote is free, and open source. You could get VNote for Linux, Windows, and macOS."
+msgstr ""
+
+#: ../../user_docs/why_vnote.md:7
+msgid "Why Another Markdown Wheel"
+msgstr ""
+
+#: ../../user_docs/why_vnote.md:8
+msgid "Insights About Markdown"
+msgstr ""
+
+#: ../../user_docs/why_vnote.md:9
+msgid "Markdown, as a simple mark language, unlike rich text, was born with a gap between edit and read. There are about three ways to handle this gap:"
+msgstr ""
+
+#: ../../user_docs/why_vnote.md:11
+msgid "As one extreme, some editors just treat Markdown as plain text. Users may lose themselves in the messy black characters. It is hard to keep track of the information of the note."
+msgstr ""
+
+#: ../../user_docs/why_vnote.md:12
+msgid "Most Markdown editors use two side-by-side panels to edit and preview Markdown notes simultaneously. It makes things easier since users could see a pleasant typesetting and layout while editing the text. However, two panels may occupy the whole screen and users keep moving eyes left and right, which will be a big distraction."
+msgstr ""
+
+#: ../../user_docs/why_vnote.md:13
+msgid "As another extreme, some editors convert the Markdown elements in place immediately after the typing, which makes editing Markdown just like editing rich text document in Word with some shortcuts. This may conflict with what Markdown is intended to be."
+msgstr ""
+
+#: ../../user_docs/why_vnote.md:15
+msgid "Since most editors choose the second way to handle the gap, people always think of preview when it comes to Markdown. It may be a MISUNDERSTANDING about Markdown. Designed as a simple mark language, Markdown is intended to help to keep track of the information of the text when editing and provide a beautiful typesetting when reading after being converted to HTML."
+msgstr ""
+
+#: ../../user_docs/why_vnote.md:17
+msgid "Tradeoff: VNote's Way"
+msgstr ""
+
+#: ../../user_docs/why_vnote.md:18
+msgid "VNote tries to minimize the gap and provide the best-effort WYSIWYG for Markdown via tuned syntax highlights and some other features. By helping to keep track of the content, there is no need to preview or alter the text immediately after being typed."
+msgstr ""
+

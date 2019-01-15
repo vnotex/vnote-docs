@@ -1,0 +1,289 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Le Tan
+# This file is distributed under the same license as the VNote package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr "Project-Id-Version: VNote 1.11.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-13 11:49+0900\n"
+"PO-Revision-Date: 2019-01-12 00:00+0900\n"
+"Last-Translator: Hiroshi Miura <miurahr@linux.com>\n"
+"Language-Team: Japanese <ja@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../user_docs/export.md:1
+msgid "Export"
+msgstr "エキスポート"
+
+#: ../../user_docs/export.md:2
+msgid "VNote supports rich and extensible export."
+msgstr "VNoteは、リッチで拡張可能なエクスポートをサポートします。"
+
+#: ../../user_docs/export.md:6
+msgid "Sources"
+msgstr "ソース"
+
+#: ../../user_docs/export.md:7
+msgid "There are four sources to select which notes to export."
+msgstr "エキスポートするノートを選択するには4つのソースがあります。"
+
+#: ../../user_docs/export.md:9
+msgid "Current Note"
+msgstr ""
+
+#: ../../user_docs/export.md:10
+msgid "Export current note;"
+msgstr "現在のノートをエキスポートします。"
+
+#: ../../user_docs/export.md:11
+msgid "Current Folder"
+msgstr "現在のフォルダ"
+
+#: ../../user_docs/export.md:12
+msgid "Export all the notes within current folder;"
+msgstr "現在のフォルダ内にあるすべてのノートをエクスポートします。"
+
+#: ../../user_docs/export.md:13
+msgid "Support export subfolders recursively;"
+msgstr "サブフォルダーの再帰的なエキスポートがサポートされています;"
+
+#: ../../user_docs/export.md:14
+msgid "Current Notebook"
+msgstr "現在のノートブック"
+
+#: ../../user_docs/export.md:15
+msgid "Export all the notes of current notebook;"
+msgstr "現在のノートブックのすべてのノートをエキスポートします；"
+
+#: ../../user_docs/export.md:16
+msgid "Cart"
+msgstr "カート"
+
+#: ../../user_docs/export.md:17
+msgid "Cart is a tool to collect random notes for further processing."
+msgstr "カートは、追加の処理をするために個々のノートを収集するツールです。"
+
+#: ../../user_docs/export.md:19
+msgid "Options"
+msgstr "オプション"
+
+#: ../../user_docs/export.md:20
+msgid "We could specify Markdown renderer, Markdown rendering background, Markdown rendering style, and Markdown rendering code block style for the export. For example, we could specify a transparent background when we export PDFs."
+msgstr ""
+
+#: ../../user_docs/export.md:22
+msgid "Formats"
+msgstr "書式設定"
+
+#: ../../user_docs/export.md:23
+msgid "Markdown"
+msgstr ""
+
+#: ../../user_docs/export.md:24
+msgid "We could export a Markdown note as Markdown format. For a note named vnote.md, VNote will create a folder named vnote_md, then copy the vnote.md to this folder, then copy local images of this note, then copy the attachments of this note. After this, we could compress this folder and share it."
+msgstr "MarkdownノートをMarkdown形式でエクスポートすることができます。For a note named vnote.md, VNote will create a folder named vnote_md, then copy the vnote.md to this folder, then copy local images of this note, then copy the attachments of this note. この後、このフォルダを圧縮して共有することができます。"
+
+#: ../../user_docs/export.md:26
+msgid "HTML"
+msgstr ""
+
+#: ../../user_docs/export.md:27
+msgid "When exporting a note as HTML format, VNote will first render the Markdown note and then output the HTML as a file. Advanced settings of HTML format includes:"
+msgstr "ノートをHTML形式でエクスポートする場合、VNoteは最初にMarkdownノートをレンダリングしてから、HTMLをファイルとして出力します。HTML形式の詳細設定には、次のものがあります。"
+
+#: ../../user_docs/export.md:29
+msgid "Embed CSS styles"
+msgstr "埋め込みCSSスタイル："
+
+#: ../../user_docs/export.md:30
+msgid "Embed CSS styles in the exported HTML file."
+msgstr "エクスポートされたHTMLファイルにCSSスタイルを埋め込みます。"
+
+#: ../../user_docs/export.md:31
+msgid "Complete page"
+msgstr "完全なページ"
+
+#: ../../user_docs/export.md:32
+msgid "When checked, VNote will also export related images besides the HTML file. If not checked, you may lose local images."
+msgstr "チェックマークを付けると、VNoteはHTMLファイル以外の関連イメージもエクスポートされます。チェックされていない場合は、ローカルイメージが失われる可能性があります。"
+
+#: ../../user_docs/export.md:33
+msgid "MIME HTML"
+msgstr ""
+
+#: ../../user_docs/export.md:34
+msgid "Export the MIME HTML format."
+msgstr "MIME HTML形式をエクスポートします。"
+
+#: ../../user_docs/export.md:36
+msgid "PDF"
+msgstr ""
+
+#: ../../user_docs/export.md:37
+msgid "VNote supports exporting notes as PDF files. Page size and margins are configurable. There are two engines to choose to do the export."
+msgstr "VNoteでは、ノートをPDFファイルとして書き出すことができます。ページ・サイズとマージンは設定可能です。輸出をするには2つのエンジンがある。"
+
+#: ../../user_docs/export.md:39
+msgid "Built-In Engine"
+msgstr "内蔵エンジン"
+
+#: ../../user_docs/export.md:40
+msgid "The built-in engine works better with the content, but lacks the bookmark in the generated PDF file."
+msgstr "組み込みエンジンはコンテンツとともに機能しますが、生成されたPDFファイルにはブックマークがありません。"
+
+#: ../../user_docs/export.md:42
+msgid "wkhtmltopdf"
+msgstr ""
+
+#: ../../user_docs/export.md:43
+msgid "wkhtmltopdf is a third-party tool to convert HTML to PDF. You need to install this extra tool which will be used by VNote. When using this engine, VNote will first convert the Markdown notes to HTML format, and then call wkhtmltopdf with the generated HTML files as input."
+msgstr "wkhtmltopdf is a third-party tool to convert HTML to PDF. この追加ツールをインストールする必要があります。このツールはVNoteによって使用されます。When using this engine, VNote will first convert the Markdown notes to HTML format, and then call wkhtmltopdf with the generated HTML files as input."
+
+#: ../../user_docs/export.md:47
+msgid "Advanced settings includes:"
+msgstr "詳細設定には、次のものがあります："
+
+#: ../../user_docs/export.md:49
+msgid "wkhtmltopdf path"
+msgstr ""
+
+#: ../../user_docs/export.md:50
+msgid "Path of the wkhtmltopdf executable."
+msgstr "wkhtmltopdf 実行ファイルのパス"
+
+#: ../../user_docs/export.md:51
+msgid "Title"
+msgstr ""
+
+#: ../../user_docs/export.md:52
+msgid "Title of the generated PDF. It is only valid when All In One is enabled."
+msgstr "生成されたPDFのタイトル。All In Oneが有効になっている場合のみ有効です。"
+
+#: ../../user_docs/export.md:53
+#: ../../user_docs/export.md:78
+msgid "Output file name"
+msgstr ""
+
+#: ../../user_docs/export.md:54
+msgid "The name of the generated PDF file. It is only valid when All In One is enabled."
+msgstr "生成されたPDFファイルの名前です。All In Oneが有効になっている場合のみ有効です。"
+
+#: ../../user_docs/export.md:55
+msgid "Page Number"
+msgstr ""
+
+#: ../../user_docs/export.md:56
+msgid "Whether append page number to every page and the position of it."
+msgstr "ページごとにページ番号を追加するか、その位置を指定するかを指定します。"
+
+#: ../../user_docs/export.md:57
+msgid "Enable background"
+msgstr "バックグラウンドを有効にする"
+
+#: ../../user_docs/export.md:58
+msgid "Whether enable the background of the HTML."
+msgstr "HTMLの背景を有効にするかどうかを指定します。"
+
+#: ../../user_docs/export.md:59
+msgid "Additional options"
+msgstr ""
+
+#: ../../user_docs/export.md:60
+msgid "Additional global options which will be passed to wkhtmltopdf. For available options, please reference the documentation of wkhtmltopdf."
+msgstr "wkhtmltopdfに渡される追加のグローバル・オプション。利用可能なオプションについては、wkhtmltopdfのドキュメントを参照してください。"
+
+#: ../../user_docs/export.md:62
+msgid "PDF (All In One)"
+msgstr ""
+
+#: ../../user_docs/export.md:63
+msgid "When choosing this format, VNote will utilize the wkhtmltopdf tool to convert multiple Markdown notes into one PDF file. To make this work well, a good practice in using VNote is to turn on Heading Sequence starting from level 2 and insert the title as level 1 heading for each note."
+msgstr ""
+
+#: ../../user_docs/export.md:65
+msgid "Custom"
+msgstr "カスタム"
+
+#: ../../user_docs/export.md:66
+msgid "The Custom format enable users to choose whatever tool they like to process notes."
+msgstr ""
+
+#: ../../user_docs/export.md:70
+msgid "Advanced settings:"
+msgstr "詳細設定:"
+
+#: ../../user_docs/export.md:72
+msgid "Source format"
+msgstr ""
+
+#: ../../user_docs/export.md:73
+msgid "VNote supports using Markdown or HTML format as the inputs to your tool."
+msgstr ""
+
+#: ../../user_docs/export.md:74
+msgid "Output suffix"
+msgstr ""
+
+#: ../../user_docs/export.md:75
+msgid "The suffix of the output file, such as docx, pdf, or ppt."
+msgstr ""
+
+#: ../../user_docs/export.md:76
+msgid "Enable All In One"
+msgstr ""
+
+#: ../../user_docs/export.md:77
+msgid "Whether put multiple notes as the input once to your tool. They are separated by spaces."
+msgstr ""
+
+#: ../../user_docs/export.md:79
+msgid "The file name of the output. It is only valid when All In One is enabled."
+msgstr "The file name of the output. All In Oneが有効になっている場合のみ有効です。"
+
+#: ../../user_docs/export.md:80
+msgid "Input directories separator"
+msgstr ""
+
+#: ../../user_docs/export.md:81
+msgid "VNote could pass the directories of the input notes to your tool. You could use these directories as the resource folders. This option specifies the separator to concatenate these directories."
+msgstr ""
+
+#: ../../user_docs/export.md:82
+msgid "Command"
+msgstr ""
+
+#: ../../user_docs/export.md:83
+msgid "The command executed by VNote. Some special place holder you could use:"
+msgstr ""
+
+#: ../../user_docs/export.md:84
+msgid "%0: the input files;"
+msgstr ""
+
+#: ../../user_docs/export.md:85
+msgid "%1: the output file;"
+msgstr ""
+
+#: ../../user_docs/export.md:86
+msgid "%2: the rendering CSS style file to be used;"
+msgstr ""
+
+#: ../../user_docs/export.md:87
+msgid "%3: the input file directories;"
+msgstr ""
+
+#: ../../user_docs/export.md:88
+msgid "%4: the rendering code block CSS style file to be used;"
+msgstr ""
+
+#: ../../user_docs/export.md:90
+msgid "An example to use pandoc to export notes:"
+msgstr ""
+
+#: ../../user_docs/export.md:96
+msgid "Then if the output suffix is pdf, it will generate the PDF file; if it is docx, it will generate the DOCX file."
+msgstr ""
+

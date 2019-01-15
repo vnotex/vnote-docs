@@ -1,0 +1,78 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Le Tan
+# This file is distributed under the same license as the VNote package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: VNote 1.11.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-13 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../user_docs/magic_word.md:1
+msgid "Magic Word"
+msgstr ""
+
+#: ../../user_docs/magic_word.md:2
+msgid "Magic Words are some characters that have special meanings. They will be evaluated to some pre-defined characters. For one simple example, date could be evaluated to the date of today."
+msgstr ""
+
+#: ../../user_docs/magic_word.md:4
+msgid "VNote support snippets in most of the input widgets. For example, you could use snippet for the note name when creating a note."
+msgstr ""
+
+#: ../../user_docs/magic_word.md:6
+msgid "%da% work log.md will be evaluated as 20180128 work log.md since %da% is a magic word which is defined as the date of today in the form YYYYMMDD."
+msgstr ""
+
+#: ../../user_docs/magic_word.md:8
+msgid "In the editor, you could type %da%, and then press shortcut Ctrl+E M, which will evaluate the word under cursor as magic word."
+msgstr ""
+
+#: ../../user_docs/magic_word.md:10
+msgid "For example, type following words:"
+msgstr ""
+
+#: ../../user_docs/magic_word.md:16
+msgid "Then press Ctrl+E M, it will be changed to:"
+msgstr ""
+
+#: ../../user_docs/magic_word.md:22
+msgid "Built-In Magic Words"
+msgstr ""
+
+#: ../../user_docs/magic_word.md:23
+msgid "VNote has defined lots of magic words. In the input dialog, type %help% to show a list of defined magic words."
+msgstr ""
+
+#: ../../user_docs/magic_word.md:27
+msgid "Custom Magic Words"
+msgstr ""
+
+#: ../../user_docs/magic_word.md:28
+msgid "Edit the vnote.ini file in configuration folder like this:"
+msgstr ""
+
+#: ../../user_docs/magic_word.md:39
+msgid "Now we got two magic words vnote (based on another magic word datetime) and hw."
+msgstr ""
+
+#: ../../user_docs/magic_word.md:41
+msgid "Magic Word In Snippet"
+msgstr ""
+
+#: ../../user_docs/magic_word.md:42
+msgid "Snippet also supports magic word. Now we could define a snippet to insert current date like this:"
+msgstr ""
+
+#: ../../user_docs/magic_word.md:46
+msgid "Now in edit mode, we could hit Ctrl+E S D to insert current date."
+msgstr ""
+

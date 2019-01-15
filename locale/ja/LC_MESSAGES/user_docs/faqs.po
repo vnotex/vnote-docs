@@ -1,0 +1,132 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Le Tan
+# This file is distributed under the same license as the VNote package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr "Project-Id-Version: VNote 1.11.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-13 11:49+0900\n"
+"PO-Revision-Date: 2019-01-12 00:00+0900\n"
+"Last-Translator: Hiroshi Miura <miurahr@linux.com>\n"
+"Language-Team: Japanese <ja@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../user_docs/faqs.md:1
+msgid "Frequently Asked Questions"
+msgstr ""
+
+#: ../../user_docs/faqs.md:2
+msgid "How to specify customized MathJax script?"
+msgstr ""
+
+#: ../../user_docs/faqs.md:3
+msgid "VNote supports a configuration [web]/mathjax_javascript which specifies the location of the MathJax and its configuration to use. The default value may look like this:"
+msgstr ""
+
+#: ../../user_docs/faqs.md:11
+msgid "You could download the MathJax (howto) and specify a local copy of the MathJax to use, like mathjax_javascript=\"file:///home/tamlok/Downloads/MathJax-2.7.2/MathJax.js?config=TeX-MML-AM_CHTML\"."
+msgstr ""
+
+#: ../../user_docs/faqs.md:13
+msgid "You could also specify customized script in GUI settings dialog:"
+msgstr ""
+
+#: ../../user_docs/faqs.md:17
+msgid "Notes:"
+msgstr ""
+
+#: ../../user_docs/faqs.md:19
+msgid "Need to prepend file:// to the local path;"
+msgstr ""
+
+#: ../../user_docs/faqs.md:20
+msgid "Using local path may get the fonts wrong. I think a better way is to run a light HTTP server locally."
+msgstr ""
+
+#: ../../user_docs/faqs.md:22
+msgid "How to make VNote more \"portable\"?"
+msgstr ""
+
+#: ../../user_docs/faqs.md:23
+msgid "VNote will read and store configuration files in the common directory of the operating system to store application data. If you prefer to put these configuration files along with the VNote executable, you coulud copy or create the vnote.ini file in the directory containing VNote executable. VNote will first try to read vnote.ini from where the executable exists."
+msgstr ""
+
+#: ../../user_docs/faqs.md:25
+msgid "However, please notice that VNote will store the notebook's path in the configuration file, so it may read a wrong path and complain about errors if you copy VNote to another computer."
+msgstr ""
+
+#: ../../user_docs/faqs.md:27
+msgid "How to draw diagrams using Mermaid or Flowchart.js?"
+msgstr ""
+
+#: ../../user_docs/faqs.md:28
+msgid "Enable Mermaid Diagram and Flowchart.js in the Markdown menu;"
+msgstr ""
+
+#: ../../user_docs/faqs.md:29
+msgid "Re-open opened tabs to let it take effect;"
+msgstr ""
+
+#: ../../user_docs/faqs.md:30
+msgid "For Mermaid, write a fenced code block specified with language mermaid;"
+msgstr ""
+
+#: ../../user_docs/faqs.md:31
+msgid "For Flowchart.js, write a fenced code block specified with language flowchart or flow;"
+msgstr ""
+
+#: ../../user_docs/faqs.md:33
+msgid "Mermaid example:"
+msgstr ""
+
+#: ../../user_docs/faqs.md:43
+msgid "Flowchart.js example:"
+msgstr ""
+
+#: ../../user_docs/faqs.md:59
+msgid "How to open a note in another tab?"
+msgstr ""
+
+#: ../../user_docs/faqs.md:62
+msgid "When Single click to open a note in current tab is enabled, single-click in the note list to open the note in current tab, while double-click to open it in a new tab."
+msgstr ""
+
+#: ../../user_docs/faqs.md:64
+msgid "Interface is freezed"
+msgstr ""
+
+#: ../../user_docs/faqs.md:65
+msgid "Cursor is not visible in edit mode"
+msgstr ""
+
+#: ../../user_docs/faqs.md:66
+msgid "Crash when opening a note"
+msgstr ""
+
+#: ../../user_docs/faqs.md:67
+msgid "Menu does not work in fullscreen mode"
+msgstr ""
+
+#: ../../user_docs/faqs.md:68
+msgid "All the above 4 issues may be caused by the driver of the display card. Steps to solve it:"
+msgstr ""
+
+#: ../../user_docs/faqs.md:70
+msgid "On Windows, try to update the display card driver;"
+msgstr ""
+
+#: ../../user_docs/faqs.md:71
+msgid "Try to schedule VNote to run with integrated display card;"
+msgstr ""
+
+#: ../../user_docs/faqs.md:72
+msgid "If not works, try to declare a system environment variable named QT_OPENGL and set its value to desktop, or angle, or software."
+msgstr ""
+
+#: ../../user_docs/faqs.md:74
+msgid "Restart of VNote is needed after the action."
+msgstr ""
+

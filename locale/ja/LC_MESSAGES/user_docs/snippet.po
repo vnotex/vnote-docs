@@ -1,0 +1,152 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Le Tan
+# This file is distributed under the same license as the VNote package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr "Project-Id-Version: VNote 1.11.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-13 11:49+0900\n"
+"PO-Revision-Date: 2019-01-12 00:00+0900\n"
+"Last-Translator: Hiroshi Miura <miurahr@linux.com>\n"
+"Language-Team: Japanese <ja@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../user_docs/snippet.md:1
+msgid "Snippet"
+msgstr "スニペット"
+
+#: ../../user_docs/snippet.md:2
+msgid "Snippet is designed to facilitate the repeated input of some words."
+msgstr "スニペットは、いくつかの単語の繰り返し入力を容易にするために設計されています。"
+
+#: ../../user_docs/snippet.md:4
+msgid "Snippet Management"
+msgstr "スニペットの管理"
+
+#: ../../user_docs/snippet.md:5
+msgid "You could manage snippets via the Tools dock widget."
+msgstr "ツールドックウィジェットを使ってスニペットを管理することができます。"
+
+#: ../../user_docs/snippet.md:9
+msgid "In this panel, we could:"
+msgstr "このパネルでは次のことができます："
+
+#: ../../user_docs/snippet.md:11
+msgid "Create a snippet;"
+msgstr "スニペットを作成；"
+
+#: ../../user_docs/snippet.md:12
+msgid "Open snippet folder;VNote uses a folder in the configuration folder to store all the snippets and use configuration file snippet.json for management. Each snippet corresponds to one file."
+msgstr "スニペットフォルダを開きます；Vnoteは、構成フォルダー内のフォルダーを使用して、すべてのスニペットを格納し、コンフィギュレーションファイル snippet.jsonを使用して管理します。各スニペットは、1つのファイルに対応しています。"
+
+#: ../../user_docs/snippet.md:14
+msgid "View and edit the information about a snippet;"
+msgstr "スニペットに関する情報を表示および編集します；"
+
+#: ../../user_docs/snippet.md:15
+msgid "Sort and delete snippets;"
+msgstr "スニペットのソートと削除；"
+
+#: ../../user_docs/snippet.md:16
+msgid "Apply (insert) a snippet into the editor;"
+msgstr "このスニペットをエディタに適用(挿入)する；"
+
+#: ../../user_docs/snippet.md:18
+msgid "Define A Snippet"
+msgstr "スニペットの定義"
+
+#: ../../user_docs/snippet.md:19
+msgid "A snippet contains:"
+msgstr "スニペットには次のものが含まれます:"
+
+#: ../../user_docs/snippet.md:21
+msgid "Snippet Name"
+msgstr "スニペット名"
+
+#: ../../user_docs/snippet.md:22
+msgid "Identifies a snippet. It is also the name of the corresponding file in the snippet folder."
+msgstr "スニペットを識別します。また、スニペットフォルダ内の対応するファイルの名前でもあります。"
+
+#: ../../user_docs/snippet.md:23
+msgid "Snippet Type"
+msgstr "スニペットタイプ"
+
+#: ../../user_docs/snippet.md:24
+msgid "Plain text or HTML. Currently only plain text is supported."
+msgstr "プレーンテキストまたはHTML。現在のところ、プレーンテキストのみがサポートされています。"
+
+#: ../../user_docs/snippet.md:25
+msgid "Shortcut"
+msgstr "ショートカット"
+
+#: ../../user_docs/snippet.md:26
+msgid "You could designate one of the 26 characters (a to z) to insert snippet quickly."
+msgstr "スニペットをすばやく挿入するため、26文字(a～z)のいずれかを指定できます。"
+
+#: ../../user_docs/snippet.md:27
+msgid "Cursor Mark"
+msgstr "カーソル・マーク"
+
+#: ../../user_docs/snippet.md:28
+msgid "VNote uses Cursor Mark to mark the position of the cursor after applying a snippet. Should appears only once in the Content."
+msgstr "VNoteでは、カーソルマークを使用して、スニペットを適用した後にカーソルの位置をマークします。コンテンツに1度だけ表示されます。"
+
+#: ../../user_docs/snippet.md:29
+msgid "Selection Mark"
+msgstr "選択マーク"
+
+#: ../../user_docs/snippet.md:30
+msgid "VNote uses Selection Mark to mark the position to insert the selected text before applying a snippet. Selection mark could appear multiple times in the Content. After applying a snippet, all the selection marks will be replaced with the selected text."
+msgstr "Vnoteは選択マークを使用して、選択したテキストを挿入する位置をマークしてから、スニペットを適用します。選択マークは、コンテンツに複数回表示されることがあります。スニペットを適用すると、選択したテキストがすべて選択されたテキストに置き換えられます。"
+
+#: ../../user_docs/snippet.md:31
+msgid "Content"
+msgstr "コンテンツ"
+
+#: ../../user_docs/snippet.md:32
+msgid "The content of the snippet which will be inserted at the position of current cursor while applying a snippet."
+msgstr "スニペットを適用しているときに、現在のカーソルの位置に挿入されるスニペットの内容です。"
+
+#: ../../user_docs/snippet.md:34
+msgid "Apply A Snippet"
+msgstr "スニペットを適用"
+
+#: ../../user_docs/snippet.md:35
+msgid "Snippet Panel"
+msgstr "スニペットパネル"
+
+#: ../../user_docs/snippet.md:36
+msgid "Place the cursor at the proper position and double click a snippet in the snippet panel to apply a snippet."
+msgstr "カーソルを適切な位置に置き、スニペット・パネルでスニペットをダブルクリックしてスニペットを適用します。"
+
+#: ../../user_docs/snippet.md:38
+msgid "Shortcuts"
+msgstr "ショートカット"
+
+#: ../../user_docs/snippet.md:39
+msgid "You could use Captain Mode to apply a snippet quickly. In edit mode, press Ctrl+E S to activate snippet selection dialog, which shows all the snippets with shortcut defined. Press the corresponding shortcut key to apply a snippet."
+msgstr "キャプテンモードを使用して、スニペットをすばやく適用することができます。編集モードで、Ctrl+E Sを押してスニペットの選択ダイアログをアクティブにします。このダイアログボックスには、ショートカットが定義されたすべてのスニペットが表示されます。対応するショートカットキーを押してスニペットを適用します。"
+
+#: ../../user_docs/snippet.md:41
+msgid "Examples"
+msgstr "例"
+
+#: ../../user_docs/snippet.md:42
+msgid "Insert Code Block with CPP"
+msgstr "CPPを使用してコードブロックを挿入する"
+
+#: ../../user_docs/snippet.md:47
+msgid "Comment Out Selected Text"
+msgstr "選択されたテキストのコメントアウト"
+
+#: ../../user_docs/snippet.md:52
+msgid "Tag for Color"
+msgstr "色のタグ"
+
+#: ../../user_docs/snippet.md:57
+msgid "Or:"
+msgstr "または："
+

@@ -1,0 +1,92 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Le Tan
+# This file is distributed under the same license as the VNote package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr "Project-Id-Version: VNote 1.11.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-13 11:49+0900\n"
+"PO-Revision-Date: 2019-01-13 12:00+0900\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: zh_CN <zh_CN@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../user_docs/getting_started.md:1
+msgid "Getting Started"
+msgstr "入门指南"
+
+#: ../../user_docs/getting_started.md:2
+msgid "VNote is distributed on Linux, Windows, and macOS. You could always download standalone packages from the Downloads page."
+msgstr "VNote适用于在Linux，Windows和macOS系统。您可以从下载页面获取独立软件包。"
+
+#: ../../user_docs/getting_started.md:4
+msgid "It is recommended to download and use the stable releases of VNote. If you prefer to use some latest features of VNote, you could try the latest continuous build from master branch."
+msgstr "建议下载并使用VNote的稳定版本。如果您更喜欢使用VNote的一些最新功能，可以尝试从master分支产生的最新版本。"
+
+#: ../../user_docs/getting_started.md:6
+msgid "Besides the standalone packages, some package managers may already package and distribute VNote, such as AUR, and homebrew cask."
+msgstr "除了独立的安装包之外，一些包管理器可能已经打包和分发VNote，例如AUR和homebrew cask。"
+
+#: ../../user_docs/getting_started.md:8
+msgid "Main Interface"
+msgstr "主界面"
+
+#: ../../user_docs/getting_started.md:9
+msgid "Here is a snapshot of VNote's main interface."
+msgstr "这是VNote主界面的截图。"
+
+#: ../../user_docs/getting_started.md:13
+msgid "Menubar and Toolbar"
+msgstr "菜单栏和工具栏"
+
+#: ../../user_docs/getting_started.md:14
+msgid "VNote provides some settings via Menubar at the top of the window and provides some handy shortcuts via Toolbar right below the menubar. Place mouse over the menu item or button, there is a tooltip or status tip to help illustrating the function of that item or button."
+msgstr "VNote通过窗口顶部的菜单栏提供一些设置，并通过菜单项或按钮上的菜单栏下方的工具栏提供一些方便的快捷键。将光标放在菜单栏选项或按钮出，会出现一个工具提示或状态提示，有助于说明该选项或按钮的功能。"
+
+#: ../../user_docs/getting_started.md:16
+msgid "Notebooks, Folders, and Notes"
+msgstr "笔记本，文件夹和笔记"
+
+#: ../../user_docs/getting_started.md:17
+msgid "VNote uses Notebooks, Folders, and Notes hierarchy for note management. The left-side panel is used to navigate through your notebooks, folders, and notes."
+msgstr "VNote使用笔记本、文件夹和笔记层次结构进行笔记管理。左侧面板用于浏览笔记本，文件夹和笔记。"
+
+#: ../../user_docs/getting_started.md:19
+msgid "At the first time you launch VNote, you will be prompted to create your first notebook. A notebook corresponds to a directory in your file system. You should choose an empty directory as your Notebook Root Folder. All the contents of this notebook will be stored whthin the Notebook Root Folder."
+msgstr "第一次启动VNote时，系统将提示您创建第一个笔记本。笔记本对应于文件系统中的目录。您应该选择一个空目录作为您的笔记本根文件夹。此笔记本的所有内容都将被存储在笔记本根文件夹中。"
+
+#: ../../user_docs/getting_started.md:21
+msgid "Once you have a notebook, you could create folders in this notebook. VNote supports infinite levels of folders."
+msgstr "一旦你有了一个笔记本，你可以在这个笔记本中创建文件夹。VNote支持无限级别的文件夹。"
+
+#: ../../user_docs/getting_started.md:23
+msgid "The bottom panel at the left side will list all the notes of current folder. You could create a new note via the context menu."
+msgstr "左侧的面板的下部将列出当前文件夹中所有笔记。您可以在通过在该区域右侧菜单创建新的笔记。"
+
+#: ../../user_docs/getting_started.md:25
+msgid "Content Area"
+msgstr "内容区域"
+
+#: ../../user_docs/getting_started.md:26
+msgid "The middle area which occupies most of the space is the Content Area, which is used to read and edit notes. VNote supports opening multiple notes by tabs."
+msgstr "占据大部分空间的中间区域是内容区域，用于读取和编辑笔记。VNote支持通过选项卡打开多个笔记。"
+
+#: ../../user_docs/getting_started.md:28
+msgid "Tools Dock Widget"
+msgstr "工具坞小部件。"
+
+#: ../../user_docs/getting_started.md:29
+msgid "At the right-side panel, there are multiple tools to facilitate your reading and editing, such as Outline and Snippets."
+msgstr "在右侧面板中，有多个工具可以方便您进行阅读和编辑，例如大纲和片段。"
+
+#: ../../user_docs/getting_started.md:31
+msgid "Ready To Go"
+msgstr "准备好开始"
+
+#: ../../user_docs/getting_started.md:32
+msgid "That is it! Now you could read, edit, and mange your notes in VNote!"
+msgstr "这就是VNote了！现在，您可以在VNote中阅读，编辑和管理您的笔记了！"
+
