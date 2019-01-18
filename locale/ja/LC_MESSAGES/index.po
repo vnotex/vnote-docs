@@ -7,7 +7,7 @@ msgid ""
 msgstr "Project-Id-Version: VNote 1.11.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-13 11:49+0900\n"
-"PO-Revision-Date: 2019-01-12 00:00+0900\n"
+"PO-Revision-Date: 2019-01-18 13:10+0900\n"
 "Last-Translator: Hiroshi Miura <miurahr@linux.com>\n"
 "Language-Team: Japanese <ja@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -28,7 +28,7 @@ msgstr "VNoteのソースコードは、`Github`_ で入手できます。"
 
 #: ../../index.rst:18
 msgid "You could obtain a Simplified Chinese (简体中文) version translated by users `here`_."
-msgstr "中国語 (简体中文)版を`ここ`_で見ることができます。 "
+msgstr " 中国語 (简体中文)版は `here`_  を見てください。"
 
 #: ../../index.rst:22
 msgid "The main documentation for the site is organized into a couple of sections:"
