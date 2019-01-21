@@ -20,15 +20,15 @@ msgstr "欢迎使用VNote文档"
 
 #: ../../index.rst:11
 msgid "Designed specially for Markdown, `VNote`_ is a Vim-inspired note-taking application, which knows programmers and Markdown better."
-msgstr "`VNote`_是一个受Vim启发的更懂程序员和Markdown的一个笔记软件。"
+msgstr "`VNote`_ 是一个受Vim启发的更懂程序员和Markdown的一个笔记软件。"
 
 #: ../../index.rst:13
 msgid "VNote is open source, and available on `Github`_."
-msgstr "VNote在 `Github`_上开源。"
+msgstr "VNote在  `Github`_ 上开源。"
 
 #: ../../index.rst:18
 msgid "You could obtain a Simplified Chinese (简体中文) version translated by users `here`_."
-msgstr "原文档通过英文提供，中文翻译由用户` Ben2001github`_ 提供！"
+msgstr "原文档通过英文提供，中文翻译由用户提供！"
 
 #: ../../index.rst:22
 msgid "The main documentation for the site is organized into a couple of sections:"
