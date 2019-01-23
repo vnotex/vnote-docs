@@ -12,12 +12,17 @@ Designed specially for Markdown, `VNote`_ is a Vim-inspired note-taking applicat
 
 VNote is open source, and available on `Github`_.
 
+There are documents in several languages.
+
+* `English`_
+* Simplified `Chinese`_ (简体中文) 
+* `Japanese`_ (日本語)
+
 .. _VNote: https://tamlok.github.io/vnote/
 .. _Github: https://github.com/tamlok/vnote/
-
-You could obtain a Simplified Chinese (简体中文) version translated by users `here`_.
-
-.. _here: http://vnote.readthedocs.io/zh_CN/latest/
+.. _English: http://vnote.readthedocs.io/en/latest/
+.. _Chinese: http://vnote.readthedocs.io/zh_CN/latest/
+.. _Japanese: http://vnote.readthedocs.io/ja/latest/
 
 The main documentation for the site is organized into a couple of sections:
 
