@@ -1,3 +1,4 @@
 sphinx
 sphinx_rtd_theme
-recommonmark
+recommonmark>=0.5.0
+commonmark>=0.8.0
