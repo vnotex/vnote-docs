@@ -10,7 +10,7 @@ Welcome to VNote's Documentation
 
 A pleasant note-taking platform.
 
-VNote is open source, and available on `Github`_.
+VNote is open source, and available on `GitHub`_.
 
 For latest documentation, please check `VNote Home Page`_.
 
@@ -20,7 +20,7 @@ There are documents in several languages.
 * `Simplified Chinese`_ (简体中文)
 * `Japanese`_ (日本語)
 
-.. _Github: https://github.com/vnotex/vnote/
+.. _GitHub: https://github.com/vnotex/vnote/
 .. _VNote Home Page: https://vnotex.github.io/vnote
 .. _English: http://vnote.readthedocs.io/en/latest/
 .. _Simplified Chinese: http://vnote.readthedocs.io/zh_CN/latest/
@@ -38,17 +38,8 @@ The main documentation for the site is organized into a couple of sections:
     :maxdepth: 2
     :caption: User Documentation
 
-    user_docs/why_vnote
-    user_docs/getting_started
-    user_docs/build
-    user_docs/notes_management
-    user_docs/snippet
-    user_docs/magic_word
-    user_docs/template
-    user_docs/themes_and_styles
-    user_docs/export
-    user_docs/full_text_search
-    user_docs/faqs
+    docs/en_us/docs/Users/Why VNote.md
+    docs/en_us/docs/Users/Get Started.md
 
 .. _dev-docs:
 
