@@ -17,13 +17,11 @@ For latest documentation, please check `VNote Home Page`_.
 There are documents in several languages.
 
 * `English`_
-* `Simplified Chinese`_ (简体中文)
 * `Japanese`_ (日本語)
 
 .. _GitHub: https://github.com/vnotex/vnote/
 .. _VNote Home Page: https://vnotex.github.io/vnote
 .. _English: http://vnote.readthedocs.io/en/latest/
-.. _Simplified Chinese: http://vnote.readthedocs.io/zh_CN/latest/
 .. _Japanese: http://vnote.readthedocs.io/ja/latest/
 
 The main documentation for the site is organized into a couple of sections:

@@ -21,7 +21,7 @@ help:
 
 
 
-langs = en zh_CN ja
+langs = en ja
 
 html: $(foreach lang,$(langs),html-$(lang))
 
