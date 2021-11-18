@@ -40,6 +40,14 @@ The main documentation for the site is organized into a couple of sections:
 
     docs/en_us/docs/Users/Why VNote.md
     docs/en_us/docs/Users/Get Started.md
+    docs/en_us/docs/Users/Notes Management.md
+    docs/en_us/docs/Users/Configuration.md
+    docs/en_us/docs/Users/Snippet.md
+    docs/en_us/docs/Users/Template.md
+    docs/en_us/docs/Users/Themes and Styles.md
+    docs/en_us/docs/Users/Image Host.md
+    docs/en_us/docs/Users/Export.md
+    docs/en_us/docs/Users/Frequently Asked Questions.md
 
 .. _dev-docs:
 
@@ -47,3 +55,6 @@ The main documentation for the site is organized into a couple of sections:
     :glob:
     :maxdepth: 2
     :caption: Developer Documentation
+
+    docs/en_us/docs/Developer/Build VNote.md
+    docs/en_us/docs/Developer/Localization and Translations.md
