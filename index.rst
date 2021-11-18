@@ -6,30 +6,30 @@
 Welcome to VNote's Documentation
 ================================
 
-.. image:: https://github.com/tamlok/vnote/raw/master/screenshots/vnote.png
+.. image:: https://github.com/vnotex/vnote/raw/master/pics/vnote.png
 
-Designed specially for Markdown, `VNote`_ is a Vim-inspired note-taking application, which knows programmers and Markdown better.
+A pleasant note-taking platform.
 
 VNote is open source, and available on `Github`_.
+
+For latest documentation, please check `VNote Home Page`_.
 
 There are documents in several languages.
 
 * `English`_
-* Simplified `Chinese`_ (简体中文) 
+* `Simplified Chinese`_ (简体中文)
 * `Japanese`_ (日本語)
 
-.. _VNote: https://tamlok.github.io/vnote/
-.. _Github: https://github.com/tamlok/vnote/
+.. _Github: https://github.com/vnotex/vnote/
+.. _VNote Home Page: https://vnotex.github.io/vnote
 .. _English: http://vnote.readthedocs.io/en/latest/
-.. _Chinese: http://vnote.readthedocs.io/zh_CN/latest/
+.. _Simplified Chinese: http://vnote.readthedocs.io/zh_CN/latest/
 .. _Japanese: http://vnote.readthedocs.io/ja/latest/
 
 The main documentation for the site is organized into a couple of sections:
 
 * :ref:`user-docs`
-* :ref:`advanced-docs`
 * :ref:`dev-docs`
-* :ref:`about-docs`
 
 .. _user-docs:
 
@@ -50,23 +50,9 @@ The main documentation for the site is organized into a couple of sections:
     user_docs/full_text_search
     user_docs/faqs
 
-.. _advanced-docs:
-
-.. toctree::
-    :glob:
-    :maxdepth: 2
-    :caption: Advanced Documentation
-
 .. _dev-docs:
 
 .. toctree::
     :glob:
     :maxdepth: 2
     :caption: Developer Documentation
-
-.. _about-docs:
-
-.. toctree::
-    :glob:
-    :maxdepth: 2
-    :caption: About VNote
